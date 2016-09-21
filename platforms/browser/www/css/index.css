@@ -1,0 +1,98 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+body {
+    background-color: #459695;
+        font-family: "Helvetica";
+
+}
+.logo {
+    width:100%;
+}
+
+.styled-select select {
+    appearance:none;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    width:100%;
+    border-radius: 0px;
+    border:none;
+    font-size:18px;
+    color:grey;
+    padding:4% 7% 4% 7%;
+    margin-top:10px;
+    background-color: white;
+}
+
+.welcome {
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    margin:0px 0px 20px 0px;
+}
+
+.blok {
+    margin:0 auto;
+    width: 15%;
+    height: 3px;
+    background-color: white;
+}
+
+option.option_dropdown {
+
+}
+
+input.submit {
+    width:100%;
+    padding:4% 7% 4% 7%;
+    background-color: #459695;
+    color:white;
+    border:1px solid white;
+    margin-top:10px;
+    appearance:none;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    text-decoration: none;
+    border-radius: 0px;
+    font-size: 18px;
+}
+
+input.key {
+    background-color: red;
+    width: 86%;
+    margin:0 auto;
+    border-radius: 0px;
+    border:none;
+    color:grey;
+    background-color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding:4% 7% 4% 7%;
+}
+
+.inputvelden {
+    padding-top:160px;
+    width:80%;
+    margin:0 auto;
+}
+
+.logoblok {
+    width:80%;
+    margin:0 auto;
+}
