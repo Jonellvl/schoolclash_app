@@ -1,12 +1,7 @@
 # ProjectBerlin
 
-create new branch
 
-$ git branch name
-
-$ git checkout name
-
-Switch to branch
+*Switch to branch*
 
 $ git checkout master
 Switched to branch 'master'
