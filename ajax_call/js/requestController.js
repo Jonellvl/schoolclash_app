@@ -23,18 +23,18 @@ $(document).ready(function(){
         });
     }
 
-    console.log(unpack("js/content.json"));
+    document.write(unpack("js/content.json").done());
+    //console.log(unpack("js/content.json"));
 
-    function transferToHtml(content){
-        var array = content;
-        console.log(content + " array");
-        var newHTML = [];
-
-        $.each(array, function(index, value) {
-            newHTML.push('<span>' + value + '</span>');
-        });
-
-        $(".element").html(newHTML.join(""));
-    }
-
+    //function transferToHtml(content){
+    //    var array = content;
+    //    console.log(content + " array");
+    //    var newHTML = [];
+    //
+    //    $.each(array, function(index, value) {
+    //        newHTML.push('<span>' + value + '</span>');
+    //    });
+    //
+    //    $(".element").html(newHTML.join(""));
+    //}
 });
