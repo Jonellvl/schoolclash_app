@@ -1,17 +1,22 @@
 [
   {
-    "title": "1",
-    "content": "blablalblalbla-1",
+    "title": "2009",
+    "content": "Deze muur viel om",
     "img": "1.jpg"
   },
   {
-    "title": "2",
-    "content": "blablalblalbla-2",
+    "title": "1945",
+    "content": "Deze kapsels zijn zo ouderwets",
     "img": "2.jpg"
   },
   {
-    "title": "3",
-    "content": "blablalblalbla-3",
+    "title": "3033",
+    "content": "Moderne toekomst",
     "img": "3.jpg"
+  },
+  {
+    "title": "1983",
+    "content": "een blink in de toekomst",
+    "img": "5.jpg"
   }
 ]

@@ -3,30 +3,24 @@ $(document).ready(function(){
     var list = [];
     var content = "js/content.json";
 
-    function unpack(link){
+    function unpack(link, amount){
         // Items is array
 
         $.get(link, function(data) {
             var parsed = JSON.parse(data);
-            var countJson = parsed.length;
-            //console.log(countJson);
-            for (var i = 0; i < countJson; i++ ){
+            var jsonCount = parsed.length;
 
+            for (var i = 0; i < jsonCount; i++ ){
 
-                for (i in parsed){
-
-                    var keyOne = Object.keys(parsed[i])[0];//Titles
-                    var keyTwo = Object.keys(parsed[i])[1];//Titles
-                    var keyTree = Object.keys(parsed[i])[2];//img
-
-                    console.log( parsed[i][keyOne] + parsed[i][keyTwo] + parsed[i][keyTree])
+                for (var x = 0; x < amount; x++){
+                    var key = Object.keys(parsed[i])[x];
+                    console.log(parsed[i][key]);
                 }
-
             }
         });
     }
 
 
-    unpack(content);
+    unpack(content, "3");
 
 });
