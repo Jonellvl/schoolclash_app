@@ -1,28 +1,36 @@
 #!flask/bin/python
+#Load all the includes
 from flask import Flask, jsonify
 import base64
 import os
 import MySQLdb
 import MySQLdb.cursors
 
+#Initialize database connection
 database = MySQLdb.connect(host = "localhost", user = "root", passwd = "root", db = "schoolclash")
 c = database.cursor()
 
+#Execute our query to fetch the data from the CMS-Database
 c.execute("select id, multipleChoice, answer, validAnswer FROM schoolclash")
 questions = database.fetchone()
 
+#Output all information from the query
 for i in questions:
     print questions['id']
     print questions['multipleChoice']
     print questions['answer']
     print questions['validAnswer']
 
+#Open an image and encode it in Base64 to make it transportable over json
 image = open('image.png', 'rb')
 imageread = image.read()
 imageb64 = base64.encodestring(imageread)
 
+#Initialize Flask
 app = Flask(__name__)
 app.secret_key = os.urandom(30)
+
+#This is the data spitten out by /api/question | Note to self: use data from the Database in this
 tasks = [
 
         {
@@ -42,6 +50,7 @@ tasks = [
 
 ]
 
+#This is the data spitten out by /api/content | Note to self: use data from the Database in this
 content = [
       {
               "title": "2009",
@@ -63,18 +72,24 @@ content = [
       }
 ]
 
+#Define the route to the API call (GET /api/content) and spit out json
 @app.route('/api/content', methods=['GET'])
 def get_content():
     return jsonify({'content': content})
 headers = {'Content-Type': 'application/json'}
+
+#Define the route to the API call (GET /api/question) and spit out json
 @app.route('/api/question', methods=['GET'])
 def get_questions():
         return jsonify({'question': tasks})
 headers = {'Content-Type': 'application/json'}
+#Define the route to the API call (GET /api/image) and spit out json
 @app.route('/api/image', methods=['GET'])
 def get_b64Image():
     return jsonify({'image': imageb64})
 app.secret_key = os.urandom(30)
 headers = {'Content-Type': 'application/json'}
+
+#Initialize Flask in debugging modes for easy development
 if __name__ == '__main__':
     app.run(debug=True)
