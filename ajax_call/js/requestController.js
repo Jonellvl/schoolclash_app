@@ -5,7 +5,7 @@ $(document).ready(function(){
 
     function unpackContent(link, divClass, container){
 
-        $('body').html($('<div>', {
+        $('.json').html($('<div>', {
             id: container
         }));
 
@@ -21,7 +21,7 @@ $(document).ready(function(){
                     if (key == "img"){
                         var img = $('<img />',
                             {
-                                id: divClass[x],
+                                class: divClass[x],
                                 src: parsed[i][key],
                             })
                             .appendTo($('#'+container));
@@ -36,7 +36,7 @@ $(document).ready(function(){
 
     var content = "js/content.json";
     var arr = ["title", "content", "image"];
-    var con = "container";
+    var con = "containerd";
 
     unpackContent(content, arr, con)
 
