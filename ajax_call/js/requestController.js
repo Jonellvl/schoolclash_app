@@ -2,9 +2,9 @@ $(document).ready(function(){
     // The link is the location of the json file
     // The divclass is an array where you can deside how you name the div's
     // The container is where the contend is stored inside the html
+    // Bug cannot give add a new container! :(
 
     function unpackContent(link, divClass, container){
-
         $('.json').html($('<div>', {
             id: container
         }));
@@ -36,8 +36,11 @@ $(document).ready(function(){
 
     var content = "js/content.json";
     var arr = ["title", "content", "image"];
-    var con = "containerd";
+    var con = "container";
 
-    unpackContent(content, arr, con)
+    unpackContent(content, arr, con);
+
+
+
 
 });
