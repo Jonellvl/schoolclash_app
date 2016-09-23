@@ -1,0 +1,22 @@
+body{
+    background: grey;
+    padding: 40px;
+
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.title{
+    font-size: 25px;
+}
+
+.content{
+}
+
+.title, .content{
+    padding: 20px 0 20px 0;
+
+}

@@ -2,16 +2,13 @@
   {
     "title": "foobar",
     "content": "blablalblalbla",
-    "img": "1.jpg"
   },
   {
-    "title": "2008",
+    "title": "foobar2",
     "content": "blablalblalbla",
-    "img": "2.jpg"
   },
   {
-    "title": "2011",
+    "title": "foobar3",
     "content": "blablalblalbla",
-    "img": "3.jpg"
   }
 ]
