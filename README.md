@@ -1,5 +1,8 @@
 # Schoolclash api
 
+Requirements MySQLdb, Flask
+
+
 <<<<<<< HEAD
 
 **Switch to branch**
