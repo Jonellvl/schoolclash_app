@@ -1,26 +1,27 @@
 $(document).ready(function(){
 
-    var list = [];
     var content = "js/content.json";
 
-    function unpack(link, amount){
-        // Items is array
-
+    function unpackContent(link, divId){ // amount is how many items in one json block
         $.get(link, function(data) {
             var parsed = JSON.parse(data);
             var jsonCount = parsed.length;
+            var amount = divId.length;
 
-            for (var i = 0; i < jsonCount; i++ ){
+            for(var i = 0; i < jsonCount; i++ ){
 
-                for (var x = 0; x < amount; x++){
+                for(var x = 0; x < amount; x++){
                     var key = Object.keys(parsed[i])[x];
-                    console.log(parsed[i][key]);
+                    var keyTwo = Object.keys(parsed[0])[0];
+
+                    $("<div class='"+divId[x]+"'/>").html(parsed[i][key]).appendTo("#content");
                 }
             }
+
         });
     }
 
-
-    unpack(content, "3");
+    var arr = ["title", "content", "img"];
+    unpackContent(content, arr)
 
 });
