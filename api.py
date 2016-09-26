@@ -8,10 +8,12 @@ import MySQLdb
 import MySQLdb.cursors
 import yagmail
 
+app = Flask(__name__)
+
 UPLOAD_FOLDER = './uploads'
 app.config['UPLOADFOLDER'] = UPLOAD_FOLDER
 #initialize SMTP server
-yag = yagmail.SMTP()
+yag = yagmail.SMTP('api.schoolclash@gmail.com', 'garagedeur1')
 
 #Initialize database connection
 database = MySQLdb.connect(host = "localhost", user = "root", passwd = "root", db = "schoolclash")
@@ -63,28 +65,6 @@ imageread = image.read()
 imageb64 = base64.encodestring(imageread)
 
 #Initialize Flask
-app = Flask(__name__)
-app.secret_key = os.urandom(30)
-
-#This is the data spitten out by /api/question | Note to self: use data from the Database in this
-tasks = [
-
-        {
-                    'id': 1,
-                    'multipleChoice': True,
-                    'answer': u'Dit is een goed antwoord',
-                    'validAnswer': True
-                
-        },
-        {
-                
-                    'id': 1,
-                    'multipleChoice': True,
-                    'answer': u'Dit is een goed antwoord',
-                    'validAnswer': True
-        }
-
-]
 
 #This is the data spitten out by /api/content | Note to self: use data from the Database in this
 content = [
@@ -119,10 +99,10 @@ headers = {'Content-Type': 'application/json'}
 def get_b64Image():
     return jsonify({'image': imageb64})
 app.secret_key = os.urandom(30)
-headers = {'Content-Type': 'application/json'
-@app.route('/upload')
+headers = {'Content-Type': 'application/json'}
+@app.route('/upload', methods = ['GET', 'POST'])
 def upload_file():
-return render_template('upload.html')
+           return render_template('upload.html')
 
 @app.route('/uploader', methods = ['GET', 'POST'])
 def upload_file():
@@ -132,6 +112,7 @@ def upload_file():
            return 'file uploaded successfully'
     contents = "<h1>PDF - Verstuurd</h1> je kunt de pdf bestanden vinden in de bijlage"
     file_names = f.filename
-    yag.send("test@schoolclash.eu", "PDF - Aangekomen", contents, attachments=./uploads/%s) % (file_names)
+    attachment="/home/jordy/schoolclash_app/uploads/%s" % (file_names)
+    yag.send("test@schoolclash.eu", "PDF - Aangekomen", contents, attachments=attachment)
 if __name__ == '__main__':
     app.run(debug=True)
