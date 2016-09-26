@@ -12,7 +12,6 @@ UPLOAD_FOLDER = './uploads'
 app.config['UPLOADFOLDER'] = UPLOAD_FOLDER
 #initialize SMTP server
 yag = yagmail.SMTP()
-contents = "New PDF arrived"
 
 #Initialize database connection
 database = MySQLdb.connect(host = "localhost", user = "root", passwd = "root", db = "schoolclash")
