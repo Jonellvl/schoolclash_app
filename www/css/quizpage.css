@@ -13,7 +13,7 @@ body {
   position: absolute;
   z-index: 99999;
   top: 0;
-  left: 00;
+  left: 0;
   margin: 20px;
 }
 .header .image .image-item {
