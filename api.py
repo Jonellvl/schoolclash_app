@@ -27,12 +27,11 @@ answers = database.fetchone()
 c.execute("SELECT question FROM questions")
 questions = database.fetchone()
 
-
 #Define the route to the API call (GET /api/content) and spit out json
 app.route('/api/question')
 def get_question():
     for i in answers:
-        if isMultiplechoice:
+        if answers[answer]:
             return jsonify(
                 id=answers['question_id'],
                 answer=answers['answer'],
@@ -42,9 +41,8 @@ def get_question():
         else:
             return jsonify(
                 id=answers['question_id'],
-                answer=answers['answer'],
-                multiplechoice="true",
-                questions=answer3="dit is een goed antwoord"
+                multiplechoice=false,
+                questions=questions['question']
         )
 
 #Output all location data from query 

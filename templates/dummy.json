@@ -1,0 +1,44 @@
+[
+
+  {
+
+    "id": 1,
+
+    "answer": "Waarom is sneeuw wit",
+
+    "location": "location2",
+
+    "multipleChoice": "true",
+
+    "questions":
+
+      {
+
+        "answer": ["vraag 1 antwoord 1", "antwoord 2", "antwoord 3"]
+
+      }
+
+  },
+
+  {
+
+  "id": 2,
+
+  "answer": "Waarom is de muur gebouwd?",
+
+  "location": "location2",
+
+  "multipleChoice": "true",
+
+  "questions":
+
+    {
+
+      "answer": ["vraag 2 antwoord 1", "antwoord 2", "antwoord 3"]
+
+    }
+
+  }
+
+
+]
