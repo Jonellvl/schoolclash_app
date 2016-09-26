@@ -7,15 +7,31 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <script src="js/jquery-3.1.1.js"></script>
-    <script src="js/requestController.js"></script>
     <script src="js/formBuilder.js"></script>
+    <script src="js/requestController.js"></script>
 
 </head>
 <body>
 
-
     <div class="form"> </div>
     <div class="json"> </div>
+
+    <script>
+
+        var link = "js/content.json";
+        var divClass = ["title", "content", "image", "link"];
+        var con = "container";
+
+        unpackContent(link, divClass, con);
+
+
+        var formId = "quizQuestion";
+        var container = 'questions';
+        var link = 'js/question.json';
+        formBuilder(link, container, formId);
+
+    </script>
+
 
 </body>
 </html>
