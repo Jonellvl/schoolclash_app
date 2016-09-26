@@ -1,0 +1,79 @@
+header{
+    background-color: white;
+    font-family: "Helvetica";
+    position: relative;
+    display: flex;
+}
+
+body {
+    background-color: white;
+    font-family: "Helvetica";
+    margin: 0;
+}
+
+.monumentPicture{
+    width: 100%;
+    filter: brightness(45%);
+    height: 50vh;
+    min-height: 100px;
+    background-size: cover;
+    background-image: url("../img/Furherbunker.png");
+    background-attachment: fixed;
+}
+
+h3{
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30%;
+    text-transform: uppercase;
+}
+
+.backButton{
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 20px;
+    width: 11,31px;
+    height: 19px;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+    margin-top: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 40px;
+    border: none;
+    height: 2px;
+    background-color: #459695;
+}
+
+.monumentInfo{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.quizQuestions{
+    color: white;
+    background-color: #459695;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 40px;
+    height: 42px;
+    border: none;
+    cursor: pointer;
+}
+
+.info{
+    font-family: Georgia;
+    opacity: 0.9;
+    font-size: 14px;
+}

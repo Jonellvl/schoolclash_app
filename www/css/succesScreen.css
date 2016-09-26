@@ -1,0 +1,47 @@
+body{    
+    background-color: #459695;
+    font-family: "Helvetica";
+    margin: 0;
+}
+
+.check{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+
+h2{
+    color: white;
+    margin-top: 45px;
+    text-align: center;
+}
+hr{
+    margin-top: 35px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 20px;
+    border: none;
+    height: 3px;
+    background-color: white;
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
+button{
+    color: white;
+    background-color: #459695;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    height: 42px;
+    border: 1px solid white;
+}
+
+a{
+    text-decoration: none;
+}
+

@@ -1,0 +1,69 @@
+header{
+    background-color: white;
+    font-family: "Helvetica";
+    position: relative;
+    display: flex;
+}
+
+body {
+    background-color: white;
+    font-family: "Helvetica";
+    margin: 0;
+}
+
+.monumentPicture{
+    max-width: 100%;
+    min-width: 100%;
+    filter: brightness(40%);
+}
+
+h3{
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30%;
+    text-transform: uppercase;
+}
+
+.backButton{
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 11,31px;
+    height: 19px;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10%;
+    border: none;
+    height: 2px;
+    background-color: #459695;
+}
+
+.monumentInfo{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.quizQuestions{
+    color: white;
+    background-color: #459695;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: 42px;
+    border: none;
+}
