@@ -190,7 +190,6 @@ input[type=radio]:checked ~ label{
   text-align: center;
 }
 .container button {
-
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -202,6 +201,9 @@ input[type=radio]:checked ~ label{
   padding: 15px 32px;
   width: 80%
 }
-.button-text button.checked {
-
+.button-text a#button-false {
+  display: none;
+}
+.button-text a#button-true {
+  display: inherit;
 }
