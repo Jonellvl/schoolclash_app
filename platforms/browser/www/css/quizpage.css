@@ -157,7 +157,6 @@ input[type=radio]:checked ~ label{
   margin-top: -2px
 }
 .button-text h3 {
-  padding-left: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
   border: 1px solid #e1efef;
