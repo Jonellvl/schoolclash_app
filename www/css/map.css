@@ -186,7 +186,7 @@ h1.plattegrond {
 }
 
 .locations_button {
-    width:90%;
+    width:100%;
     font-size:18px;
     color:white;
     background-color:#459695;
@@ -195,6 +195,7 @@ h1.plattegrond {
     margin:0 auto;
     margin-top:35px;
     text-decoration: none;
+    margin-bottom: 10px;
 
 }
 

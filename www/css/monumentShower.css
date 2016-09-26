@@ -12,9 +12,13 @@ body {
 }
 
 .monumentPicture{
-    max-width: 100%;
-    min-width: 100%;
-    filter: brightness(40%);
+    width: 100%;
+    filter: brightness(45%);
+    height: 50vh;
+    min-height: 100px;
+    background-size: cover;
+    background-image: url("../img/Furherbunker.png");
+    background-attachment: fixed;
 }
 
 h3{
@@ -31,11 +35,10 @@ h3{
 
 .backButton{
     display: flex;
-    position: absolute;
+    position: fixed;
     left: 0;
     right: 0;
-    margin-top: 10%;
-    margin-left: 5%;
+    margin: 20px;
     width: 11,31px;
     height: 19px;
     justify-content: center;
@@ -43,10 +46,10 @@ h3{
 }
 
 hr{
-    margin-top: 10%;
+    margin-top: 40px;
     margin-left: 30%;
     margin-right: 30%;
-    margin-bottom: 10%;
+    margin-bottom: 40px;
     border: none;
     height: 2px;
     background-color: #459695;
@@ -63,7 +66,14 @@ hr{
     width: 80%;
     margin-left: 10%;
     margin-top: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 40px;
     height: 42px;
     border: none;
+    cursor: pointer;
+}
+
+.info{
+    font-family: Georgia;
+    opacity: 0.9;
+    font-size: 14px;
 }
