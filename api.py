@@ -21,6 +21,32 @@ c = database.cursor()
 c.execute("SELECT question_id, title, text, x, y, completed FROM locations")
 locations = database.fetchone()
 
+c.execute("SELECT answer, question_id, correct FROM answers")
+answers = database.fetchone()
+
+c.execute("SELECT question FROM questions")
+questions = database.fetchone()
+
+
+#Define the route to the API call (GET /api/content) and spit out json
+app.route('/api/question')
+def get_question():
+    for i in answers:
+        if isMultiplechoice:
+            return jsonify(
+                id=answers['question_id'],
+                answer=answers['answer'],
+                multiplechoice="true",
+                questions=[dict(answer1="dit is een fout antwoord", answer2="dit is een fout antwoord", answer3="dit is een goed antwoord")]
+        )
+        else:
+            return jsonify(
+                id=answers['question_id'],
+                answer=answers['answer'],
+                multiplechoice="true",
+                questions=answer3="dit is een goed antwoord"
+        )
+
 #Output all location data from query 
 @app.route('/api/locations')
 def get_locations():
@@ -90,11 +116,6 @@ def get_content():
     return jsonify({'content': content})
 headers = {'Content-Type': 'application/json'}
 
-#Define the route to the API call (GET /api/content) and spit out json
-@app.route('/api/question', methods=['GET'])
-def get_questions():
-        return jsonify({'question': tasks})
-headers = {'Content-Type': 'application/json'}
 #Define the route to the API call (GET /api/image) and spit out json
 @app.route('/api/image', methods=['GET'])
 def get_b64Image():
