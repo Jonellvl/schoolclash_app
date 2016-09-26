@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ChoosePicture</title>
+    <link rel="stylesheet" href="css/index.css">
+    <img src="img/smallBunker.png" class="headPicture">
+    <script src="js/index.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+    <img src="img/picture_1.png" class="picture">
+    <img src="img/picture_2.png" class="picture">
+    <img src="img/picture_3.png" class="picture">
+    <img src="img/picture_4.png" class="picture">
+    <img src="img/picture_5.png" class="picture">
+</body>
+
+<script>
+$('.picture').click(function() {
+    $(this).toggleClass("clicked");
+});   
+
+</script>
+</html>
