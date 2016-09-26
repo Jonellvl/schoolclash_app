@@ -132,6 +132,6 @@ def upload_file():
            return 'file uploaded successfully'
     contents = "<h1>PDF - Verstuurd</h1> je kunt de pdf bestanden vinden in de bijlage"
     file_names = f.filename
-    yag.send("test@schoolclash.eu", "PDF - Aangekomen", contents, attachments=file_names)
+    yag.send("test@schoolclash.eu", "PDF - Aangekomen", contents, attachments=./uploads/%s) % (file_names)
 if __name__ == '__main__':
     app.run(debug=True)
