@@ -169,7 +169,7 @@ input[type=radio]:checked ~ label{
   margin-bottom: 0px;
 }
 .button-text button {
-  width: 100%;
+  width: 100% !important;
   height: 50px;
   background-color: #459695;
   border: none;
@@ -181,6 +181,27 @@ input[type=radio]:checked ~ label{
   display: inline-block;
   font-size: 16px;
 }
+.button-text button a {
+  text-decoration: none;
+  color: inherit;
+
+}
+.container.centered-button {
+  text-align: center;
+}
+.container button {
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  background-color: #459695;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  padding: 15px 32px;
+  width: 80%
+}
 .button-text button.checked {
-  
+
 }

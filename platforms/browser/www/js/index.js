@@ -19,8 +19,54 @@
 var app = {
     // Application Constructor
     initialize: function() {
-        this.bindEvents();
+        this.bindEvents();	
+			
+		app.resizeMap();
+		
+		var map = L.map('map-canvas').setView([52.520, 13.405], 13);
+		
+		//this works, but is online:
+		/*
+		L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+			maxZoom: 18
+		}).addTo(map);
+		*/
+		
+		//TODO build something to fall back to web if not found.
+		L.tileLayer('img/mapTiles/{z}/{x}/{y}.png', {
+			maxZoom: 15,
+			minZoom: 11,
+			continuousWorld: 'false',
+		}).addTo(map);
+
+		// var bounds = new L.LatLngBounds([[52.569, 13.225], [52.396, 13.588]]);
+		// map.fitBounds(bounds);
+
+		map.fitBounds([[52.569, 13.225],[52.396, 13.588]]);
+
+		// L.fitBounds([
+  //   		[52.569, 13.225],
+  //   		[52.396, 13.588]
+		// ]);
+
+
+
+		L.marker([52.520, 13.405]).addTo(map)
+			.bindPopup("<b>Hello world!</b><br />I am a popup.").openPopup();
+
+		var popup = L.popup();
+
+		function onMapClick(e) {
+			popup
+				.setLatLng(e.latlng)
+				.setContent("You clicked the map at " + e.latlng.toString())
+				.openOn(map);
+		}
+
+		map.on('click', onMapClick);
+		
     },
+
     // Bind Event Listeners
     //
     // Bind any events that are required on startup. Common events are:
@@ -31,7 +77,7 @@ var app = {
     // deviceready Event Handler
     //
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
-    // function, we must explicitly call 'app.receivedEvent(...);'
+    // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
     },
@@ -45,5 +91,14 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
-    }
+    },
+	resizeMap: function() {
+		 $("#map-canvas").height(Math.max(100,$(window).height()-90));// TODO set 
+	}
+	
+	
 };
+
+	$(window).resize(function() {
+		app.resizeMap();
+	});
