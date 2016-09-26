@@ -1,10 +1,18 @@
 #!flask/bin/python
 #Load all the includes
-from flask import Flask, jsonify
+from flask import Flask, render_template, request, jsonify
+from werkzeug import secure_filename
 import base64
 import os
 import MySQLdb
 import MySQLdb.cursors
+import yagmail
+
+UPLOAD_FOLDER = './uploads'
+app.config['UPLOADFOLDER'] = UPLOAD_FOLDER
+#initialize SMTP server
+yag = yagmail.SMTP()
+contents = "New PDF arrived"
 
 #Initialize database connection
 database = MySQLdb.connect(host = "localhost", user = "root", passwd = "root", db = "schoolclash")
@@ -93,6 +101,19 @@ headers = {'Content-Type': 'application/json'}
 def get_b64Image():
     return jsonify({'image': imageb64})
 app.secret_key = os.urandom(30)
-headers = {'Content-Type': 'application/json'}
+headers = {'Content-Type': 'application/json'
+@app.route('/upload')
+def upload_file():
+return render_template('upload.html')
+
+@app.route('/uploader', methods = ['GET', 'POST'])
+def upload_file():
+    if request.method == 'POST':
+           f = request.files['file']
+           f.save(secure_filename(f.filename))
+           return 'file uploaded successfully'
+    contents = "<h1>PDF - Verstuurd</h1> je kunt de pdf bestanden vinden in de bijlage"
+    file_names = f.filename
+    yag.send("test@schoolclash.eu", "PDF - Aangekomen", contents, attachments=file_names)
 if __name__ == '__main__':
     app.run(debug=True)
