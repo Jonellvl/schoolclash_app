@@ -19,21 +19,21 @@
 var app = {
     // Application Constructor
     initialize: function() {
-        this.bindEvents();	
-			
+        this.bindEvents();
+
 		app.resizeMap();
-		
+
 		var map = L.map('map-canvas').setView([52.520, 13.405], 13);
-		
+
 		//this works, but is online:
 		/*
 		L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 			maxZoom: 18
 		}).addTo(map);
 		*/
-		
+
 		//TODO build something to fall back to web if not found.
-		L.tileLayer('img/mapTiles/{z}/{x}/{y}.png', {
+		L.tileLayer('img/mapTiles/{z}/{x}/{y}.jpg', {
 			maxZoom: 15,
 			minZoom: 11,
 		}).addTo(map);
@@ -78,10 +78,10 @@ var app = {
         console.log('Received Event: ' + id);
     },
 	resizeMap: function() {
-		 $("#map-canvas").height(Math.max(100,$(window).height()-90));// TODO set 
+		 $("#map-canvas").height(Math.max(100,$(window).height()-90));// TODO set
 	}
-	
-	
+
+
 };
 
 	$(window).resize(function() {
