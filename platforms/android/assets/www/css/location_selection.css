@@ -61,9 +61,11 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.location-list .location .image {
+.location-list .location  img {
   float: left;
   padding-right: 10px;
+  width: 25%;
+
 }
 .location-list .location .text {
   display: block;

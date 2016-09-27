@@ -50,7 +50,6 @@ var app = {
 
 		var popup = L.popup();
 
-
 	},
 	//sdsd
 

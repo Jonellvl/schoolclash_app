@@ -55,15 +55,33 @@ body {
   margin-top: 30px;
   padding: 15px;
 }
+
+/*.location-list .location img{*/
+    /*width: 30%;*/
+    /*left: 15px;*/
+    /*position: relative;*/
+/*}*/
+/*.location-list .location p, .location-list .location h2{*/
+    /*right: 15px;*/
+    /*position: relative;*/
+    /*float: right;*/
+/*}*/
+
+/*.location-list .location h2{*/
+    /*font-size: 15px;*/
+/*}*/
+
 .location-list .location {
   background-color: rgba(69, 150, 149, 0.5);
   height: 120px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.location-list .location .image {
+.location-list .location  img {
   float: left;
   padding-right: 10px;
+  width: 25%;
+
 }
 .location-list .location .text {
   display: block;
