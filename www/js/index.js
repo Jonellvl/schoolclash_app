@@ -17,30 +17,30 @@
  * under the License.
  */
 var app = {
-    // Application Constructor
-    initialize: function() {
-        this.bindEvents();
+	// Application Constructor
+	initialize: function() {
+		this.bindEvents();
 
 		app.resizeMap();
 
-		var map = L.map('map-canvas').setView([52.520, 13.405], 13);
+		var map = L.map('map-canvas').setView([52.520, 13.405], 14);
 
 		//this works, but is online:
 		/*
-		L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-			maxZoom: 18
-		}).addTo(map);
-		*/
+		 L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		 maxZoom: 18
+		 }).addTo(map);
+		 */
 
 		//TODO build something to fall back to web if not found.
 		L.tileLayer('img/mapTiles/{z}/{x}/{y}.jpg', {
 			maxZoom: 15,
-			minZoom: 11,
+			minZoom: 14,
 		}).addTo(map);
 
-		var bounds = L.latLngBounds([[52.569, 13.260], [52.396, 13.500]]);
-			map.setMaxBounds(bounds);
-			map.on('drag', function() {
+		var bounds = L.latLngBounds([[52.528, 13.349], [52.490, 13.423]]);
+		map.setMaxBounds(bounds);
+		map.on('drag', function() {
 			map.panInsideBounds(bounds, { animate: false });
 		});
 
@@ -50,40 +50,44 @@ var app = {
 
 		var popup = L.popup();
 
-    },
 
-    // Bind Event Listeners
-    //
-    // Bind any events that are required on startup. Common events are:
-    // 'load', 'deviceready', 'offline', and 'online'.
-    bindEvents: function() {
-        document.addEventListener('deviceready', this.onDeviceReady, false);
-    },
-    // deviceready Event Handler
-    //
-    // The scope of 'this' is the event. In order to call the 'receivedEvent'
-    // function, we must explicity call 'app.receivedEvent(...);'
-    onDeviceReady: function() {
-        app.receivedEvent('deviceready');
-    },
-    // Update DOM on a Received Event
-    receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
+	},
+	//sdsd
 
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
 
-        console.log('Received Event: ' + id);
-    },
+	// Bind Event Listeners
+	//
+	// Bind any events that are required on startup. Common events are:
+	// 'load', 'deviceready', 'offline', and 'online'.
+	bindEvents: function() {
+		document.addEventListener('deviceready', this.onDeviceReady, false);
+	},
+	// deviceready Event Handler
+	//
+	// The scope of 'this' is the event. In order to call the 'receivedEvent'
+	// function, we must explicity call 'app.receivedEvent(...);'
+	onDeviceReady: function() {
+		app.receivedEvent('deviceready');
+	},
+	// Update DOM on a Received Event
+	receivedEvent: function(id) {
+		var parentElement = document.getElementById(id);
+		var listeningElement = parentElement.querySelector('.listening');
+		var receivedElement = parentElement.querySelector('.received');
+
+		listeningElement.setAttribute('style', 'display:none;');
+		receivedElement.setAttribute('style', 'display:block;');
+
+		console.log('Received Event: ' + id);
+	},
 	resizeMap: function() {
-		 $("#map-canvas").height(Math.max(100,$(window).height()-90));// TODO set
+		$("#map-canvas").height(Math.max(100,$(window).height()-90));// TODO set
 	}
+
 
 
 };
 
-	$(window).resize(function() {
-		app.resizeMap();
-	});
+$(window).resize(function() {
+	app.resizeMap();
+});
