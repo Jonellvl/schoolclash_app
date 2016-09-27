@@ -14,28 +14,30 @@ function unpackContent(link, divClass, container, location){
         var parsed = JSON.parse(data);
         var jsonCount = parsed.length;
         var amount = divClass.length;
-
         for(var i = 0; i < jsonCount; i++ ){
             for(var x = 0; x < amount; x++){
                 var key = Object.keys(parsed[i])[x];
 
+                var inner = "inner"+i;
+
                 if (key == "img"){
                     var img = $('<img />',
                         {
-                            class: divClass[x],
-                            id: divClass[x],
+                            class: inner + " " + divClass[i],
                             src: parsed[i][key]
                         })
                         .appendTo($('.'+container));
                 }else{
                     if (key == "plaats"){
-                        $("<h2 class='"+divClass[x]+"'/>").html(parsed[i][key]).appendTo($('.'+container));
+                        $("<p class='" + inner +" "+ divClass[i] +"'/>").html(parsed[i][key]).appendTo($('.'+container));
                     }
                     else{
-                        $("<p class='"+divClass[x]+"'/>").html(parsed[i][key]).appendTo($('.'+container))
+                        $("<h2 class='" + inner +" "+ divClass[i] +"'/>").html(parsed[i][key]).appendTo($('.'+container));
                     }
                 }
             }
+            $( "."+inner ).wrapAll( "<div class='text'></div>" );
         }
     });
+
 }

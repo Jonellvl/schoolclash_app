@@ -23,17 +23,16 @@ function unpackContent(link, divClass, container, location){
                 if (key == "img"){
                     var img = $('<img />',
                         {
-                            class: inner,
-                            id: divClass[x],
+                            class: inner + " " + divClass[i],
                             src: parsed[i][key]
                         })
                         .appendTo($('.'+container));
                 }else{
                     if (key == "plaats"){
-                        $("<p class='" + inner +"'/>").html(parsed[i][key]).appendTo($('.'+container));
+                        $("<p class='" + inner +" "+ divClass[i] +"'/>").html(parsed[i][key]).appendTo($('.'+container));
                     }
                     else{
-                        $("<h2 class='" + inner +"'/>").html(parsed[i][key]).appendTo($('.'+container));
+                        $("<h2 class='" + inner +" "+ divClass[i] +"'/>").html(parsed[i][key]).appendTo($('.'+container));
                     }
                 }
             }

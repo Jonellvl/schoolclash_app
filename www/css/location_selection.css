@@ -25,6 +25,10 @@ body {
   width: 100%;
   filter: brightness(45%);
 }
+
+ #img{
+    width: 50%;
+}
 .title-bar .text {
   text-align: center;
   position: absolute;
@@ -51,51 +55,29 @@ body {
   right: 0;
   margin-top: 30px;
 }
-.location-list {
-  margin-top: 30px;
-  padding: 15px;
+
+.location-list .location{
+    padding: 10px;
 }
 
-/*.location-list .location img{*/
-    /*width: 30%;*/
-    /*left: 15px;*/
-    /*position: relative;*/
-/*}*/
-/*.location-list .location p, .location-list .location h2{*/
-    /*right: 15px;*/
-    /*position: relative;*/
-    /*float: right;*/
-/*}*/
+.location-list .location .text{
+    margin: 15px 0 0 0;
+    background-color: #459695;
+}
 
-/*.location-list .location h2{*/
-    /*font-size: 15px;*/
-/*}*/
+.location-list .location .text h2, .location-list .location .text p{
+    width: 30%;
+    border: 1px solid #000;
+    float: right;
+    position: relative;
+    color: #fff;
+}
 
-.location-list .location {
-  background-color: rgba(69, 150, 149, 0.5);
-  height: 120px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-.location-list .location  img {
-  float: left;
-  padding-right: 10px;
-  width: 25%;
+.location-list .location .text img{
+    width: 50%;
+    position: relative;
+    display: block;
 
-}
-.location-list .location .text {
-  display: block;
-  padding: 5px;
-}
-.location-list .location .text p.plaats {
-  font-size: 12px;
-  font-style: Georgia;
-  font-style: italic;
-  opacity: 0.5;
-}
-.location-list .location .text p.omschrijving {
-  font-family: Helvetica;
-  font-size: 15px;
 }
 
 a{
