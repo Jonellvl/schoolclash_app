@@ -3,7 +3,7 @@ body{
     background-color: white;
 }
 
-#header{
+.header{
     position: relative;
 }
 
@@ -18,10 +18,12 @@ body{
     height: 100%;
     margin-top: 0px;
     margin-bottom: 0px;
+    transition: 0.2s;
 }
 
 .clicked{
     opacity: 0.5;
+    transition: 0.2s;
 }
 
 .backButton{
