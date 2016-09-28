@@ -49,11 +49,3 @@ function unpackContent(link, divClass, container, location){
     });
 
 }
-
-
-{
-    {
-    fdfd
-    }
-
-}

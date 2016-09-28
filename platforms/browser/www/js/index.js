@@ -49,6 +49,8 @@ var app = {
     }
 };
 
+<<<<<<< HEAD
+=======
 function testKnop() {
   var type = window.PERSISTENT;
   var size = 5*1024*1024;
@@ -75,3 +77,4 @@ function testKnop() {
     alert('doet nie')
    }
 }
+>>>>>>> master

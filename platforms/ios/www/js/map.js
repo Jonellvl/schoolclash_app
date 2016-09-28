@@ -23,7 +23,7 @@ var app = {
 
 		app.resizeMap();
 
-		var map = L.map('map-canvas').setView([52.520, 13.405], 14);
+		var map = L.map('map-canvas').setView([52.511, 13.388], 13);
 
 		//this works, but is online:
 		/*
@@ -34,25 +34,23 @@ var app = {
 
 		//TODO build something to fall back to web if not found.
 		L.tileLayer('img/mapTiles/{z}/{x}/{y}.jpg', {
-			maxZoom: 15,
+			maxZoom: 16,
 			minZoom: 14,
 		}).addTo(map);
 
-		var bounds = L.latLngBounds([[52.528, 13.349], [52.490, 13.423]]);
+		var bounds = L.latLngBounds([[52.534, 13.364], [52.497, 13.422]]);
 		map.setMaxBounds(bounds);
 		map.on('drag', function() {
 			map.panInsideBounds(bounds, { animate: false });
 		});
 
 
-		L.marker([52.520, 13.405]).addTo(map)
+		L.marker([52.511, 13.388]).addTo(map)
 			.bindPopup("<b>Hello world!</b><br />I am a popup.").openPopup();
 
 		var popup = L.popup();
 
 	},
-	//sdsd
-
 
 	// Bind Event Listeners
 	//
@@ -82,7 +80,6 @@ var app = {
 	resizeMap: function() {
 		$("#map-canvas").height(Math.max(100,$(window).height()-90));// TODO set
 	}
-
 
 
 };
