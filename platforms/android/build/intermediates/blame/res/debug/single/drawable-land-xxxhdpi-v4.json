@@ -1,6 +1,11 @@
 [
     {
+<<<<<<< HEAD
         "merged": "/Users/rob/Desktop/schoolclash_app/platforms/android/build/intermediates/res/merged/debug/drawable-land-xxxhdpi-v4/screen.png",
         "source": "/Users/rob/Desktop/schoolclash_app/platforms/android/res/drawable-land-xxxhdpi/screen.png"
+=======
+        "merged": "/Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/build/intermediates/res/merged/debug/drawable-land-xxxhdpi-v4/screen.png",
+        "source": "/Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/res/drawable-land-xxxhdpi/screen.png"
+>>>>>>> origin/application
     }
 ]
