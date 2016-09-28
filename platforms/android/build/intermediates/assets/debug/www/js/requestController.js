@@ -37,10 +37,23 @@ function unpackContent(link, divClass, container, location){
                     }
                 }
             }
-            $( "."+inner ).wrapAll( "<div class='text'></div>" );
+            if (key == "id"){
+                //     href='contentShower.html?id='+parsed[i][key]
+                //$('.text').attr("href",('contentShower.html?id='+parsed[i][key]))
+            }
+
+            $( "."+inner ).wrapAll( "<a class='text'></a>" );
             $( "."+wrapper ).wrapAll( "<div class='wrapper-text'></div>" );
 
         }
     });
+
+}
+
+
+{
+    {
+    fdfd
+    }
 
 }

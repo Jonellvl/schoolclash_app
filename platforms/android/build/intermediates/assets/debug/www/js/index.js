@@ -45,5 +45,33 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
+
     }
 };
+
+function testKnop() {
+  var type = window.PERSISTENT;
+  var size = 5*1024*1024;
+  alert('hjb')
+
+  window.requestFileSystem(type, size, successCallback, errorCallback)
+
+  function successCallback(fs) {
+    alert('haaai')
+    dirnames = ["SchoolClashTour",
+          "SchoolClashTour/images"]
+
+    for (var i = 0; i < dirnames.length; i++) {
+      makeDirectory(dirnames[i])
+    }
+
+    function makeDirectory(dirname){
+          fs.root.getDirectory(dirname, {create: true, exclusive: true}, function(fileEntry) {
+          }, errorCallback);
+      }
+  }
+
+   function errorCallback(error) {
+    alert('doet nie')
+   }
+}

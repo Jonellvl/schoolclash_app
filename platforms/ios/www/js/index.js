@@ -45,27 +45,33 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
+
     }
 };
 
-// var cameraOptions = {
-//   quality: 50,
-//   allowEdit: false,
-//   targetWidth: 400,
-//   targetHeight: 400,
-//   destinationType: Camera.DestinationType.FILE_URI,
-//   saveToPhotoAlbum: true
-// };
-//
-// function onSuccess(imageURI) {
-//   var image = document.getElementById('imgPhoto');
-//   image.src = imageURI;
-// }
-//
-// function onFail(message) {
-//   alert('Failed because: ' + message);
-// }
-//
-// function cameraBtn() {
-//   navigator.camera.getPicture(onSuccess, onFail, cameraOptions);
-// }
+function testKnop() {
+  var type = window.PERSISTENT;
+  var size = 5*1024*1024;
+  alert('hjb')
+
+  window.requestFileSystem(type, size, successCallback, errorCallback)
+
+  function successCallback(fs) {
+    alert('haaai')
+    dirnames = ["SchoolClashTour",
+          "SchoolClashTour/images"]
+
+    for (var i = 0; i < dirnames.length; i++) {
+      makeDirectory(dirnames[i])
+    }
+
+    function makeDirectory(dirname){
+          fs.root.getDirectory(dirname, {create: true, exclusive: true}, function(fileEntry) {
+          }, errorCallback);
+      }
+  }
+
+   function errorCallback(error) {
+    alert('doet nie')
+   }
+}
