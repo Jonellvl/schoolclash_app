@@ -16,6 +16,7 @@
         <param name="onload" value="true" />
     </feature>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <feature name="Battery">
         <param name="ios-package" value="CDVBattery" />
     </feature>
@@ -78,6 +79,8 @@
     </feature>
 =======
 >>>>>>> master
+=======
+>>>>>>> master
     <name>schoolClash</name>
     <description />
     <author email="support@phonegap.com" href="http://phonegap.com">Alfa College</author>
@@ -132,9 +135,12 @@
     <preference name="PaginationBreakingMode" value="page" />
     <preference name="PaginationMode" value="unpaginated" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <preference name="CameraUsesGeolocation" value="false" />
     <preference name="StatusBarOverlaysWebView" value="true" />
     <preference name="StatusBarStyle" value="lightcontent" />
+=======
+>>>>>>> master
 =======
 >>>>>>> master
     <preference name="android-minSdkVersion" value="14" />
