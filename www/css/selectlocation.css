@@ -20,6 +20,10 @@ header h1{
 	 
 }
 
+header #icon{
+	display: block;
+}
+
 header #icon img{
 	height: 32px;
 	width: 32px;
@@ -27,7 +31,6 @@ header #icon img{
 	top: 0;
 	right: 0;
 	padding: 10px;
-	background: red;
 }
 
 .v-align{
