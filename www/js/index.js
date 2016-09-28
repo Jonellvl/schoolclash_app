@@ -48,24 +48,3 @@ var app = {
     }
 };
 
-// var cameraOptions = {
-//   quality: 50,
-//   allowEdit: false,
-//   targetWidth: 400,
-//   targetHeight: 400,
-//   destinationType: Camera.DestinationType.FILE_URI,
-//   saveToPhotoAlbum: true
-// };
-//
-// function onSuccess(imageURI) {
-//   var image = document.getElementById('imgPhoto');
-//   image.src = imageURI;
-// }
-//
-// function onFail(message) {
-//   alert('Failed because: ' + message);
-// }
-//
-// function cameraBtn() {
-//   navigator.camera.getPicture(onSuccess, onFail, cameraOptions);
-// }
