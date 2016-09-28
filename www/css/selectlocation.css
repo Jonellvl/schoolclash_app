@@ -8,11 +8,31 @@ header{
 	background-size: cover;
 }
 
+header .content{
+	text-align: center;
+	z-index: 2;
+	position: relative;
+	height: 30vh;
+}
+
+header h1{
+	color: white;
+	 
+}
+
+.v-align{
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+}
+
 #darken{
+	z-index: 1;
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: rgba(0,0,0,.3);
+	background: rgba(0,0,0,.7);
 	height: 30vh;
 	width: 100%;
 }

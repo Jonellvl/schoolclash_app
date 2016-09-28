@@ -10,3 +10,5 @@ www/.DS_Store
 www/img/mapTiles/.DS_Store
 
 platforms/android
+
+node_modules
