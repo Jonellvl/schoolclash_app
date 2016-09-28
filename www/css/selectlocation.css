@@ -8,7 +8,7 @@ header{
 	background-size: cover;
 }
 
-header .content{
+header #header-content{
 	text-align: center;
 	z-index: 2;
 	position: relative;
