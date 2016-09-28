@@ -1,0 +1,53 @@
+<link rel="import" href="header.html">
+<link rel="stylesheet" type="text/css" href="css/location_selection.css" />
+
+<body>
+  <div class="content">
+    <div class="header">
+      <div class="image">
+        <img class="image-item" src="img/header-img.jpg"/>
+      </div>
+      <div class="pointer">
+        <a href="map.html"><img class="pointer-back" src="img/pointer-back.png"/></a>
+        <a href="map.html"><img class="maps-button" src="img/maps-button.png"/></a>
+      </div>
+      <div class="title-bar">
+        <div class="text">
+          <h2>Kies je locatie</h2>
+        </div>
+        <div class="border-blue">
+        </div>
+      </div>
+    </div>
+    <div class="location-list">
+    </div>
+  </div>
+
+  <!--<a href="monumentShower.html">-->
+  <!--<div class="location">-->
+  <!--<div class="image">-->
+  <!--<img src="img/sample-image.jpg"/>-->
+  <!--</div>-->
+  <!--<p class="plaats"></p>-->
+  <!--<p class="omschrijving"></p>-->
+
+  <!--</div>-->
+  <!--</a>-->
+
+  <script>
+
+      var link = "js/json/location.json";
+      var divClass = ["plaats", "omschrijving", "img"];
+      var container = "location";
+      unpackContent(link, divClass, container, "location-list");
+
+  </script>
+
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+
+
+</body>
+
+</html>
