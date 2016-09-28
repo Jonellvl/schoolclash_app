@@ -62,12 +62,22 @@ body {
 
 .location-list .location .text{
     margin: 15px 0 0 0;
-    padding: 10px;
     background-color: #459695;
 }
 
+.location-list .location .text h2, .location-list .location .text p{
+    width: 30%;
+    border: 1px solid #000;
+    float: right;
+    position: relative;
+    color: #fff;
+}
+
 .location-list .location .text img{
-    width: 100%;
+    width: 50%;
+    position: relative;
+    display: block;
+
 }
 
 a{
