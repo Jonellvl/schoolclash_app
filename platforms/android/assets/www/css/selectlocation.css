@@ -71,7 +71,7 @@ header #icon img{
 
 .content{
 	width: calc(50% - 20px);
-	padding: 10px;
+	padding: 5px 10px;
 	display: inline-block;
 	float: right;
 }
