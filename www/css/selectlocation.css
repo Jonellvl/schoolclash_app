@@ -1,4 +1,18 @@
+body{
+	margin: 0;
+}
+
 header{
-	height: 10vh;
-	background: black;
+	height: 30vh;
+	background: url('../img/header-img.jpg');
+	background-size: cover;
+}
+
+#darken{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,.3);
+	height: 30vh;
+	width: 100%;
 }
