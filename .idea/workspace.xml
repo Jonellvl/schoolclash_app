@@ -1,179 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="899c89ef-18ca-4b08-a7f7-b5d23d0c5f41" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/css/choosePicture.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/css/location_selection.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/css/map.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/css/monumentShower.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/css/quizpage.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/css/succesScreen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/AuthenticationToken.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CallbackContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CallbackMap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/Config.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/ConfigXmlParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaActivity$4$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaArgs.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaBridge.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaClientCertRequest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaDialogsHelper$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaDialogsHelper$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaDialogsHelper$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaDialogsHelper$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaDialogsHelper$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaDialogsHelper$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaDialogsHelper$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaDialogsHelper$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaDialogsHelper$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaDialogsHelper$Result.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaDialogsHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaHttpAuthHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaInterfaceImpl$ActivityResultHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaInterfaceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaPlugin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaPreferences.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaResourceApi$OpenForReadResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaResourceApi.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaWebView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaWebViewEngine$Client.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaWebViewEngine$EngineView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaWebViewEngine.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaWebViewImpl$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaWebViewImpl$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaWebViewImpl$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaWebViewImpl$EngineClient$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaWebViewImpl$EngineClient$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaWebViewImpl$EngineClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CordovaWebViewImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CoreAndroid$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CoreAndroid$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CoreAndroid$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CoreAndroid$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CoreAndroid$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/CoreAndroid.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/ExposedJsApi.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/ICordovaClientCertRequest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/ICordovaCookieManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/ICordovaHttpAuthHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/LOG.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/NativeToJsMessageQueue$BridgeMode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/NativeToJsMessageQueue$JsMessage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/NativeToJsMessageQueue$LoadUrlBridgeMode$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/NativeToJsMessageQueue$LoadUrlBridgeMode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/NativeToJsMessageQueue$NoOpBridgeMode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$OnlineEventsBridgeModeDelegate.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/NativeToJsMessageQueue.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/PluginEntry.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/PluginManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/PluginResult$Status.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/PluginResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/ResumeCallback.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/Whitelist$URLPattern.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/Whitelist.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/engine/SystemCookieManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/engine/SystemExposedJsApi.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/engine/SystemWebChromeClient$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/engine/SystemWebChromeClient$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/engine/SystemWebChromeClient$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/engine/SystemWebChromeClient$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/engine/SystemWebChromeClient$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/engine/SystemWebChromeClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/engine/SystemWebView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/engine/SystemWebViewClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/engine/SystemWebViewEngine$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/engine/SystemWebViewEngine$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/tmp/expandedArchives/classes.jar_7elseagcwvslnc7l1nl3vgb6d/org/apache/cordova/engine/SystemWebViewEngine.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/location_selection.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-debug.aar" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-debug.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-unspecified-debug_7ad82a18d9be1f35f339dcb4182b5c4b315c6748.jar" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-unspecified-debug_7ad82a18d9be1f35f339dcb4182b5c4b315c6748.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/outputs/apk/android-debug-unaligned.apk" afterPath="$PROJECT_DIR$/platforms/android/build/outputs/apk/android-debug-unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/outputs/apk/android-debug.apk" afterPath="$PROJECT_DIR$/platforms/android/build/outputs/apk/android-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.13/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.13/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/bundles/debug/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/debug/debug_7fcc655909358cb4f04bd8dea272f9c529d9e8aa.jar" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/debug/debug_7fcc655909358cb4f04bd8dea272f9c529d9e8aa.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.13/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.13/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.13/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.13/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.13/tasks/_CordovaLib_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.13/tasks/_CordovaLib_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.13/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.13/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.13/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.13/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.13/tasks/_CordovaLib_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.13/tasks/_CordovaLib_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.13/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.13/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.13/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.13/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/big-integer/BigInteger.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/big-integer/BigInteger.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/big-integer/BigInteger.min.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/big-integer/BigInteger.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/cordova-common/src/CordovaLogger.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/cordova-common/src/CordovaLogger.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/big-integer/LICENSE" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/big-integer/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/org/apache/cordova/contacts/PermissionHelper.java" afterPath="$PROJECT_DIR$/platforms/android/src/org/apache/cordova/contacts/PermissionHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/org/apache/cordova/geolocation/PermissionHelper.java" afterPath="$PROJECT_DIR$/platforms/android/src/org/apache/cordova/geolocation/PermissionHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/org/apache/cordova/media/PermissionHelper.java" afterPath="$PROJECT_DIR$/platforms/android/src/org/apache/cordova/media/PermissionHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/cordova-common/src/PluginManager.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/cordova-common/src/PluginManager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/big-integer/README.md" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/big-integer/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/xmldom/__package__.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/xmldom/__package__.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/android.json" afterPath="$PROJECT_DIR$/platforms/android/android.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/android.json" afterPath="$PROJECT_DIR$/plugins/android.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.13/taskArtifacts/cache.properties" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.13/taskArtifacts/cache.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/choosePicture.html" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/choosePicture.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/res/merged/debug/xml/config.xml" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/res/merged/debug/xml/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/cordova_plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/cordova_plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/platform_www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/android/platform_www/cordova_plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/xmldom/dom-parser.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/xmldom/dom-parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-land-hdpi-v4.json" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-land-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-land-ldpi-v4.json" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-land-ldpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-land-mdpi-v4.json" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-land-mdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-land-xhdpi-v4.json" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-land-xhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-land-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-land-xxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-land-xxxhdpi-v4.json" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-land-xxxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-ldpi-v4.json" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-ldpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-port-hdpi-v4.json" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-port-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-port-ldpi-v4.json" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-port-ldpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-port-mdpi-v4.json" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-port-mdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-port-xhdpi-v4.json" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-port-xhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-port-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-port-xxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-port-xxxhdpi-v4.json" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-port-xxxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/header.html" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/css/index.css" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/index.html" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/plugins/cordova-plugin-file/www/browser/isChrome.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/plugins/cordova-plugin-file/www/browser/isChrome.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/plugins/cordova-plugin-file/www/browser/isChrome.js" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/plugins/cordova-plugin-file/www/browser/isChrome.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/platform_www/plugins/cordova-plugin-file/www/browser/isChrome.js" afterPath="$PROJECT_DIR$/platforms/android/platform_www/plugins/cordova-plugin-file/www/browser/isChrome.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/location_selection.html" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/location_selection.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/platforms/android/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/map.html" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/map.html" afterPath="$PROJECT_DIR$/www/map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/monumentShower.html" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/monumentShower.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/plist/dist/plist-parse.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/plist/dist/plist-parse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/plist/dist/plist.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/plist/dist/plist.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/quizpage.html" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/quizpage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/xmldom/sax.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/xmldom/sax.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/succesScreen.html" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/succesScreen.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/xml.json" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/blame/res/debug/single/xml.json" />
-    </list>
+    <list default="true" id="899c89ef-18ca-4b08-a7f7-b5d23d0c5f41" name="Default" comment="" />
     <ignored path="projectBerlin.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -241,7 +69,7 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3930818">
+            <state vertical-scroll-proportion="1.3960084">
               <caret line="244" column="14" selection-start-line="244" selection-start-column="1" selection-end-line="244" selection-end-column="14" />
               <folding />
             </state>
@@ -259,6 +87,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -733,7 +562,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3930818">
+        <state vertical-scroll-proportion="1.3960084">
           <caret line="244" column="14" selection-start-line="244" selection-start-column="1" selection-end-line="244" selection-end-column="14" />
           <folding />
         </state>
