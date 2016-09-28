@@ -3,7 +3,7 @@ function getLocations(){
 	console.log(1);
 
 	$.ajax({
-	    url: "http://api.schoolclash.eu:5000/api/location?callback=callback",
+	    url: feedurl,
 	    dataType: 'JSONP',
 	    jsonpCallback: 'callback',
 	    type: 'GET',
