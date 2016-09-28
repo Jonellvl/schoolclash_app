@@ -2,8 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="899c89ef-18ca-4b08-a7f7-b5d23d0c5f41" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/header.js" afterPath="$PROJECT_DIR$/www/js/header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/selectlocation.html" afterPath="$PROJECT_DIR$/www/selectlocation.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/generated/source/buildConfig/debug/com/phonegap/helloworld/BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/generated/source/r/debug/com/phonegap/helloworld/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/com/phonegap/helloworld/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/com/phonegap/helloworld/MainActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/com/phonegap/helloworld/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/com/phonegap/helloworld/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/com/phonegap/helloworld/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/com/phonegap/helloworld/R$xml.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/com/phonegap/helloworld/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/src/com/phonegap/helloworld/MainActivity.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/outputs/apk/android-debug-unaligned.apk" afterPath="$PROJECT_DIR$/platforms/android/build/outputs/apk/android-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/outputs/apk/android-debug.apk" afterPath="$PROJECT_DIR$/platforms/android/build/outputs/apk/android-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.13/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.13/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/debug/debug_7fcc655909358cb4f04bd8dea272f9c529d9e8aa.jar" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/debug/debug_7fcc655909358cb4f04bd8dea272f9c529d9e8aa.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.13/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.13/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.13/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.13/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.13/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.13/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.13/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.13/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.13/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.13/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.13/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.13/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/res/merged/debug/xml/config.xml" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/res/merged/debug/xml/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/header.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/header.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/js/header.js" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/js/header.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/platforms/android/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/map.css" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/map.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/css/map.css" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/css/map.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/map.css" afterPath="$PROJECT_DIR$/www/css/map.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/selectlocation.css" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/selectlocation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/selectlocation.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/selectlocation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/selectlocation.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/selectlocation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="projectBerlin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +60,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="selectlocation.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="selectlocation.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/selectlocation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.516129">
+            <state vertical-scroll-proportion="-20.0">
               <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/map.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-22.5">
+              <caret line="36" column="87" selection-start-line="36" selection-start-column="71" selection-end-line="36" selection-end-column="87" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/css/map.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6226415">
+              <caret line="190" column="16" selection-start-line="190" selection-start-column="16" selection-end-line="190" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -54,7 +109,6 @@
         <option value="$PROJECT_DIR$/www/head.html" />
         <option value="$PROJECT_DIR$/www/header.html" />
         <option value="$PROJECT_DIR$/www/css/index.css" />
-        <option value="$PROJECT_DIR$/www/css/map.css" />
         <option value="$PROJECT_DIR$/www/css/location_selection.css" />
         <option value="$PROJECT_DIR$/www/js/json/location.json" />
         <option value="$PROJECT_DIR$/www/js/requestController.js" />
@@ -67,6 +121,7 @@
         <option value="$PROJECT_DIR$/www/location_selection.html" />
         <option value="$PROJECT_DIR$/www/js/header.js" />
         <option value="$PROJECT_DIR$/www/selectlocation.html" />
+        <option value="$PROJECT_DIR$/www/css/map.css" />
       </list>
     </option>
   </component>
@@ -449,13 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/map.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="208" column="0" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/json/content.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -474,14 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/map.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -587,8 +627,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/selectlocation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.516129">
+        <state vertical-scroll-proportion="-20.0">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.5">
+          <caret line="36" column="87" selection-start-line="36" selection-start-column="71" selection-end-line="36" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/map.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6226415">
+          <caret line="190" column="16" selection-start-line="190" selection-start-column="16" selection-end-line="190" selection-end-column="16" />
           <folding />
         </state>
       </provider>

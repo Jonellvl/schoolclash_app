@@ -45,7 +45,7 @@ ADDED from /Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/a
 		ADDED from /Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/AndroidManifest.xml:5:18-52
 	android:icon
 		ADDED from /Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/AndroidManifest.xml:5:53-82
-activity#com.phonegap.helloworld.MainActivity
+activity#com.schoolclash.toolapp.MainActivity
 ADDED from /Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/AndroidManifest.xml:6:9-11:20
 	android:label
 		ADDED from /Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/AndroidManifest.xml:6:97-134

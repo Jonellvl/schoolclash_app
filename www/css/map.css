@@ -188,12 +188,12 @@ h1.plattegrond {
 }
 
 .locations_button {
+    height: 35px;
     width:100% !important;
-    font-size:18px;
+    font-size:21px;
     color:white;
     background-color:#459695;
     text-align: center;
-    padding:10px;
     margin:0 auto;
     margin-bottom: 73px;
     margin-top:35px;
@@ -203,6 +203,7 @@ h1.plattegrond {
 a.locatiebutton {
     text-decoration: none;
     color:white;
+    padding: 5px;
 }
 
 
