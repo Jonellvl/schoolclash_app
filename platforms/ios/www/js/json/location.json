@@ -1,9 +1,11 @@
 [{
   "plaats": "Oost-Berlijn",
   "omschrijving": "Hitlerbunker",
-  "img": "img/Furherbunker.jpg"
+  "img": "img/Furherbunker.jpg",
+  "id": 1
 }, {
   "plaats": "Zuid-Berlijn",
   "omschrijving": "fietsen verkoop",
-  "img": "img/Furherbunker.jpg"
+  "img": "img/Furherbunker.jpg",
+  "id": 2
 }]

@@ -1,31 +1,22 @@
-var app = app || {};
+//options for camera, for more options: http://cordova.apache.org/docs/en/latest/reference/cordova-plugin-camera/index.html
+var cameraOptions = {
+  quality: 50,
+  allowEdit: false,
+  targetWidth: 400,
+  targetHeight: 400,
+  destinationType: Camera.DestinationType.FILE_URI,
+  saveToPhotoAlbum: true
+};
 
-app.main = (function(){
-    var init = function(){
-        console.log('app init');
-        attachEvents();
-    };
-    
-    var attachEvents = function(){
-        $('#btnGetCam').on('click', getCamera);
-    };
-    
-    var getCamera = function() {
-    navigator.camera.getPicture(onSuccess, onFail, { quality: 25,
-        destinationType: Camera.DestinationType.DATA_URL
-    });
+function onSuccess(imageURI) {
+  //handle inside this function what you want to do with the picture that is made
+}
 
-    function onSuccess(imageData) {
-        var image = document.getElementById('myImage');
-        image.src = "data:image/jpeg;base64," + imageData;
-    }
+function onFail(message) {
+  alert('Failed because: ' + message);
+}
 
-    function onFail(message) {
-        alert('Failed because: ' + message);
-    }
-    };
-    
-    return {
-        init: init
-    }
-})();
+//actual call of the camera
+function cameraBtn(){
+  navigator.camera.getPicture(onSuccess, onFail, cameraOptions);
+}
