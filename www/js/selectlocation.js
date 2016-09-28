@@ -11,10 +11,13 @@ function getLocations(){
 	        console.log(data);
 
 	        console.log(data["lat"]);
-	        $("body").append("<div class='location-block'>\
-				<img src='data:image/jpeg;base64, " + data["img"] + "' />\
-				<div class='content'>\
-	        	</div></div>");
+	        $("body").append("\
+	        	<div class='location-block'>\
+					<img src='data:image/jpeg;base64, " + data["img"] + "' />\
+					<div class='content'>\
+	        			<h1>" + data["title"] + "</h1>\
+	        		</div>\
+	        	</div>");
 	    }
 	});
 }
