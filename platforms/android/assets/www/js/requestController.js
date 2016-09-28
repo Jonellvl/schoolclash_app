@@ -19,6 +19,7 @@ function unpackContent(link, divClass, container, location){
                 var key = Object.keys(parsed[i])[x];
 
                 var inner = "inner"+i;
+                var wrapper = "wrapper"+i;
 
                 if (key == "img"){
                     var img = $('<img />',
@@ -26,18 +27,33 @@ function unpackContent(link, divClass, container, location){
                             class: inner + " " + divClass[i],
                             src: parsed[i][key]
                         })
-                        .appendTo($('.'+container));
+                        .prependTo($('.'+container));
                 }else{
                     if (key == "plaats"){
-                        $("<p class='" + inner +" "+ divClass[i] +"'/>").html(parsed[i][key]).appendTo($('.'+container));
+                        $("<p class='" + inner +" "+ wrapper +"'/>").html(parsed[i][key]).appendTo($('.'+container));
                     }
                     else{
-                        $("<h2 class='" + inner +" "+ divClass[i] +"'/>").html(parsed[i][key]).appendTo($('.'+container));
+                        $("<h2 class='" + inner +" "+ wrapper +"'/>").html(parsed[i][key]).appendTo($('.'+container));
                     }
                 }
             }
-            $( "."+inner ).wrapAll( "<div class='text'></div>" );
+            if (key == "id"){
+                //     href='contentShower.html?id='+parsed[i][key]
+                //$('.text').attr("href",('contentShower.html?id='+parsed[i][key]))
+            }
+
+            $( "."+inner ).wrapAll( "<a class='text'></a>" );
+            $( "."+wrapper ).wrapAll( "<div class='wrapper-text'></div>" );
+
         }
     });
+
+}
+
+
+{
+    {
+    fdfd
+    }
 
 }
