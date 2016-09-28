@@ -78,30 +78,30 @@ MERGED from [android:CordovaLib:unspecified:debug] /Applications/XAMPP/xamppfile
 		ADDED from /Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/AndroidManifest.xml:13:42-71
 	android:minSdkVersion
 		ADDED from /Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/AndroidManifest.xml:13:15-41
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/AndroidManifest.xml:14:5-81
-	android:name
-		ADDED from /Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/AndroidManifest.xml:14:22-78
 uses-permission#android.permission.READ_CONTACTS
-ADDED from /Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/AndroidManifest.xml:15:5-72
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/AndroidManifest.xml:14:5-72
 	android:name
-		ADDED from /Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/AndroidManifest.xml:15:22-69
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/AndroidManifest.xml:14:22-69
 uses-permission#android.permission.WRITE_CONTACTS
-ADDED from /Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/AndroidManifest.xml:16:5-73
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/AndroidManifest.xml:15:5-73
 	android:name
-		ADDED from /Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/AndroidManifest.xml:16:22-70
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/AndroidManifest.xml:15:22-70
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from /Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/AndroidManifest.xml:17:5-71
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/AndroidManifest.xml:16:5-71
 	android:name
-		ADDED from /Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/AndroidManifest.xml:17:22-68
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/AndroidManifest.xml:16:22-68
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/AndroidManifest.xml:18:5-81
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/AndroidManifest.xml:17:5-81
 	android:name
-		ADDED from /Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/AndroidManifest.xml:18:22-78
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/AndroidManifest.xml:17:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/AndroidManifest.xml:19:5-79
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/AndroidManifest.xml:18:5-79
 	android:name
-		ADDED from /Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/AndroidManifest.xml:19:22-76
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/AndroidManifest.xml:18:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/AndroidManifest.xml:19:22-78
 uses-permission#android.permission.RECORD_AUDIO
 ADDED from /Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/AndroidManifest.xml:20:5-71
 	android:name

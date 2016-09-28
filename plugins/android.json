@@ -10,14 +10,6 @@
         "cordova-plugin-battery-status": {
             "PACKAGE_NAME": "com.schoolclash.toolapp"
         },
-<<<<<<< HEAD
-        "cordova-plugin-camera": {
-            "PACKAGE_NAME": "com.schoolclash.toolapp"
-=======
-        "cordova-plugin-media-capture": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
->>>>>>> master
-        },
         "cordova-plugin-console": {
             "PACKAGE_NAME": "com.schoolclash.toolapp"
         },
@@ -34,6 +26,9 @@
             "PACKAGE_NAME": "com.schoolclash.toolapp"
         },
         "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.schoolclash.toolapp"
+        },
+        "cordova-plugin-file": {
             "PACKAGE_NAME": "com.schoolclash.toolapp"
         },
         "cordova-plugin-file-transfer": {
@@ -67,24 +62,15 @@
             "PACKAGE_NAME": "com.schoolclash.toolapp"
         },
         "cordova-plugin-whitelist": {
-<<<<<<< HEAD
+            "PACKAGE_NAME": "com.schoolclash.toolapp"
+        },
+        "org.apache.cordova.camera": {
             "PACKAGE_NAME": "com.schoolclash.toolapp"
         }
     },
     "dependent_plugins": {
-=======
-            "PACKAGE_NAME": "com.phonegap.helloworld"
-        },
-        "org.apache.cordova.camera": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
-        },
->>>>>>> master
         "cordova-plugin-compat": {
             "PACKAGE_NAME": "com.schoolclash.toolapp"
-        },
-        "cordova-plugin-file": {
-            "PACKAGE_NAME": "com.schoolclash.toolapp"
         }
-    },
-    "dependent_plugins": {}
+    }
 }

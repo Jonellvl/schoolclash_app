@@ -133,7 +133,8 @@ input[type=radio]:checked ~ label{
 }
 input.submit {
   width:100%;
-  padding:4% 7% 4% 7%;
+    height: 40px;
+  /*padding:4% 7% 4% 7%;*/
   background-color: #459695;
   color:white;
   border:1px solid white;
@@ -145,9 +146,9 @@ input.submit {
   border-radius: 0px;
   font-size: 18px;
 }
-input.key {
-  background-color: red;
+input.key{
   width: 100%;
+  height: 40px;
   margin:0 auto;
   border-radius: 0px;
   border:none;
@@ -155,16 +156,13 @@ input.key {
   background-color: white;
   font-size: 18px;
   text-decoration: none;
-  padding:4% 7% 4% 7%;
 }
 .inputvelden {
   padding-top:20px;
   width:80%;
   margin:0 auto;
 }
-a {
-  text-decoration: none;
-}
+
 .logoblok {
   width:80%;
   margin:0 auto;
