@@ -13,7 +13,8 @@ function getLocations(){
 	        console.log(data["lat"]);
 	        $("body").append("<div class='location-block'>\
 				<img src='data:image/jpeg;base64, " + data["img"] + "' />\
-	        	</div>");
+				<div class='content'>\
+	        	</div></div>");
 	    }
 	});
 }
