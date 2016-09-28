@@ -50,3 +50,10 @@ header #icon img{
 	height: 30vh;
 	width: 100%;
 }
+
+#blue-line{
+	width: 40%;
+	margin: 0 auto 15px auto;
+	border-bottom: 3px solid #0CAADC;
+	height: 15px;
+}
