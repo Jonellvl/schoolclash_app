@@ -1,9 +1,18 @@
 /**
  * Created by yaronlambers on 28/09/16.
  */
+$( document ).ready(function(){
 
-var script=document.createElement('script');
-script.type='text/javascript';
-script.src='js/jquery-3.1.1.js';
+    var $head = $("head");
+    var $headlinklast = $head.find("link[rel='stylesheet']:last");
+    var linkElement = "<link rel='stylesheet' href='/css/masterBlaster.css' type='text/css' media='screen'>";
+    if ($headlinklast.length){
+        $headlinklast.after(linkElement);
+    }
+    else {
+        $head.append(linkElement);
+    }
 
-$("head").append(script);
+});
+
+
