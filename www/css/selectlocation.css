@@ -59,6 +59,8 @@ header #icon img{
 }
 
 .location-block{
+	color: white;
+	text-decoration: none;
 	background: red;
 	height: 100px;	
 	display: block;
