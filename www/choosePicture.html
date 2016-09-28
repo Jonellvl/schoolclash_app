@@ -16,26 +16,24 @@
   * Create your own at http://cspisawesome.com
   -->
   <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
-    <title>ChoosePicture</title>
+    <title></title>
     <link rel="stylesheet" href="css/choosePicture.css">
-    <div class="header">
-    <img src="img/smallBunker.jpg" class="headPicture">
-    <a href="quizpage.html"><img src="img/back.png" class="backButton"></a>
-    </div>
     <script src="js/jquery-3.1.1.js"></script>
 </head>
 <body>
-    <img src="img/picture_1.jpg" class="picture">
-    <img src="img/picture_2.jpg" class="picture">
-    <img src="img/picture_3.jpg" class="picture">
-    <img src="img/picture_4.jpg" class="picture">
-    <img src="img/picture_5.jpg" class="picture">
+  <div class="header">
+    <img src="img/smallBunker.jpg" class="headPicture">
+    <a href="quizpage.html" class="backButton"><img src="img/pointer-back.png"></a>
+  </div>
+  <img src="img/picture_1.jpg" class="picture">
+  <img src="img/picture_2.jpg" class="picture">
+  <img src="img/picture_3.jpg" class="picture">
+  <img src="img/picture_4.jpg" class="picture">
+  <img src="img/picture_5.jpg" class="picture">
 </body>
-
 <script>
 $('.picture').click(function() {
     $(this).toggleClass("clicked");
 });
-
 </script>
 </html>

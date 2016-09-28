@@ -78,7 +78,11 @@ hr{
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 20px;
+<<<<<<< HEAD
+    margin-bottom: 0px;
+=======
     margin-bottom: 40px;
+>>>>>>> master
     height: 50px;
     border: none;
     cursor: pointer;
