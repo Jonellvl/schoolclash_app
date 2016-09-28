@@ -1,3 +1,6 @@
+cat .gitignore
+
+platforms/**/*
 
 www/.DS_Store
 
@@ -9,4 +12,3 @@ www/.DS_Store
 
 www/img/mapTiles/.DS_Store
 
-platforms/android/*/*
