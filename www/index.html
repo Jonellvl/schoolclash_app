@@ -29,17 +29,56 @@
   </div>
   <div class="blok">
   </div>
-  <div class="idText">
-  Vul hieronder de ID<br>in die je hebt gekregen.
-  </div>
-  <div class="inputvelden">  </div>
 
-<div class="inputvelden">
-    <input class="key" type="number" name="name" placeholder="Groep ID">
-    <a href="map.html"><input class="submit" type="submit" value="Meedoen"></a>
+  <div id="content-index">
   </div>
+
+
+
+
    <!--<script type="text/javascript" src="js/index.js"></script>-->
     <script type="text/javascript">
+
+$.ajax({
+url:'json/content.json',
+type:'HEAD',
+error: function()
+{
+    $('#content-index').html("<div class='idText'>\
+   Download alle vragen<br>Doe dit op wifi.</div>\
+   <div class='inputvelden'>\
+    <input class='submit' type='button' value='Download vragen'>\
+  </div>");
+},
+success: function()
+{
+ $('#content-index').html("\
+               <div class='idText'>\
+   Vul hieronder de ID<br>in die je hebt gekregen.\
+   </div>\
+   <div class='inputvelden'>  </div>\
+   <div class='inputvelden'>\
+     <input class='key' type='number' name='name' placeholder='Groep ID'>\
+     <a href='map.html'><input class='submit' type='submit' value='Meedoen'></a>\
+  </div>");
+}
+});
+
+  //     fileDownloadCheck(downloaded){
+  //       if(downloaded) {
+  //         $('#content-index').html("\
+  //             <div class='idText'>\
+  // Vul hieronder de ID<br>in die je hebt gekregen.\
+  // </div>\
+  // <div class='inputvelden'>  </div>\
+  // <div class='inputvelden'>\
+  //   <input class='key' type='number' name='name' placeholder='Groep ID'>\
+  //   <a href='map.html'><input class='submit' type='submit' value='Meedoen'></a>\
+  // </div>");
+  //       }else{
+  //         alert("Er ging iets fout met het downloaden");
+  //       }
+  //     }
       app.initialize();
     </script>
   </body>

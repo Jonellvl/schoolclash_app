@@ -1,10 +1,6 @@
 [
     {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/build/intermediates/res/merged/debug/xml/config.xml",
-        "source": "/Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/res/xml/config.xml"
-    },
-    {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/www/schoolClash/platforms/android/build/intermediates/res/merged/debug/xml/config.xml",
-        "source": "/Applications/XAMPP/xamppfiles/htdocs/www/schoolClash/platforms/android/res/xml/config.xml"
+        "merged": "/Users/rob/Desktop/schoolclash_app/platforms/android/build/intermediates/res/merged/debug/xml/config.xml",
+        "source": "/Users/rob/Desktop/schoolclash_app/platforms/android/res/xml/config.xml"
     }
 ]

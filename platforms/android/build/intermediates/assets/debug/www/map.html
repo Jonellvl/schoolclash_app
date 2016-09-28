@@ -1,47 +1,49 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
- <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
         <meta charset="utf-8" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <link rel="stylesheet" type="text/css" href="css/map.css" />
-		 <link rel="stylesheet" href="libs/leaflet/leaflet.css" />
-		 <!--[if lte IE 8]>
-			 <link rel="stylesheet" href="libs/leaflet/leaflet.ie.css" />
-		 <![endif]-->
+        <link rel="stylesheet" href="libs/leaflet/leaflet.css" />
+        <!--[if lte IE 8]>
+        <link rel="stylesheet" href="libs/leaflet/leaflet.ie.css" />
+        <![endif]-->
 
         <title>Hello World</title>
-
-<title>iScroll demo: minimap</title>
-
     </head>
-    <body>
 
-    <h1 class="plattegrond">Plattegrond</h1>
-
-    <div class="streep">
-    </div>
-
-    	<div id="wrapper">
-        <div class="app">
-			<div id="message"></div>
-			 <div id="map-canvas"></div>
+    <body style="
+    background: url(img/background_kaart.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;">
+    <div class="container">
+        <h1 class="plattegrond">Plattegrond</h1>
+        <div class="streep">
         </div>
-       </div>
-       <a href="selectlocation.html" class="locatiebutton"><div class="locations_button">Locaties</div></a>
-        <script src="js/jquery-3.1.1.js"></script>
-        <script src="libs/leaflet/leaflet.js"></script>
-		<script type="text/javascript" src="js/core.js"></script>
-		<script type="text/javascript" src="js/map.js"></script>
-        <script type="text/javascript">
-            app.initialize();
-        </script>
+            <div id="wrapper">
+            <div class="app">
+                <div id="message"></div>
+                <div id="map-canvas"></div>
+            </div>
+           </div>
+
+           <a href="selectlocation.html" class="locatiebutton"><div class="locations_button">Locaties</div></a>
+            <script src="js/jquery-3.1.1.js"></script>
+            <script src="libs/leaflet/leaflet.js"></script>
+            <script type="text/javascript" src="js/core.js"></script>
+            <script type="text/javascript" src="js/map.js"></script>
+            <script type="text/javascript">
+                app.initialize();
+            </script>
+      </div>
     </body>
 
 </html>

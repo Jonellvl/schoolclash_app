@@ -1,10 +1,6 @@
 [
     {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/build/intermediates/res/merged/debug/drawable-port-xxxhdpi-v4/screen.png",
-        "source": "/Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/res/drawable-port-xxxhdpi/screen.png"
-    },
-    {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/www/schoolClash/platforms/android/build/intermediates/res/merged/debug/drawable-port-xxxhdpi-v4/screen.png",
-        "source": "/Applications/XAMPP/xamppfiles/htdocs/www/schoolClash/platforms/android/res/drawable-port-xxxhdpi/screen.png"
+        "merged": "/Users/rob/Desktop/schoolclash_app/platforms/android/build/intermediates/res/merged/debug/drawable-port-xxxhdpi-v4/screen.png",
+        "source": "/Users/rob/Desktop/schoolclash_app/platforms/android/res/drawable-port-xxxhdpi/screen.png"
     }
 ]

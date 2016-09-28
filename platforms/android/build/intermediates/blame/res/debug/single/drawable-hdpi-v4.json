@@ -1,34 +1,18 @@
 [
     {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/www/schoolClash/platforms/android/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_action_previous_item.png",
-        "source": "/Applications/XAMPP/xamppfiles/htdocs/www/schoolClash/platforms/android/res/drawable-hdpi/ic_action_previous_item.png"
+        "merged": "/Users/rob/Desktop/schoolclash_app/platforms/android/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_action_next_item.png",
+        "source": "/Users/rob/Desktop/schoolclash_app/platforms/android/res/drawable-hdpi/ic_action_next_item.png"
     },
     {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_action_remove.png",
-        "source": "/Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/res/drawable-hdpi/ic_action_remove.png"
+        "merged": "/Users/rob/Desktop/schoolclash_app/platforms/android/build/intermediates/res/merged/debug/drawable-hdpi-v4/icon.png",
+        "source": "/Users/rob/Desktop/schoolclash_app/platforms/android/res/drawable-hdpi/icon.png"
     },
     {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/www/schoolClash/platforms/android/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_action_next_item.png",
-        "source": "/Applications/XAMPP/xamppfiles/htdocs/www/schoolClash/platforms/android/res/drawable-hdpi/ic_action_next_item.png"
+        "merged": "/Users/rob/Desktop/schoolclash_app/platforms/android/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_action_remove.png",
+        "source": "/Users/rob/Desktop/schoolclash_app/platforms/android/res/drawable-hdpi/ic_action_remove.png"
     },
     {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/www/schoolClash/platforms/android/build/intermediates/res/merged/debug/drawable-hdpi-v4/icon.png",
-        "source": "/Applications/XAMPP/xamppfiles/htdocs/www/schoolClash/platforms/android/res/drawable-hdpi/icon.png"
-    },
-    {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/build/intermediates/res/merged/debug/drawable-hdpi-v4/icon.png",
-        "source": "/Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/res/drawable-hdpi/icon.png"
-    },
-    {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/www/schoolClash/platforms/android/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_action_remove.png",
-        "source": "/Applications/XAMPP/xamppfiles/htdocs/www/schoolClash/platforms/android/res/drawable-hdpi/ic_action_remove.png"
-    },
-    {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_action_previous_item.png",
-        "source": "/Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/res/drawable-hdpi/ic_action_previous_item.png"
-    },
-    {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_action_next_item.png",
-        "source": "/Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/res/drawable-hdpi/ic_action_next_item.png"
+        "merged": "/Users/rob/Desktop/schoolclash_app/platforms/android/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_action_previous_item.png",
+        "source": "/Users/rob/Desktop/schoolclash_app/platforms/android/res/drawable-hdpi/ic_action_previous_item.png"
     }
 ]

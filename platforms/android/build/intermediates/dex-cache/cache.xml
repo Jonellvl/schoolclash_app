@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/rob/Desktop/schoolclash_app/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="cb3eefbcaa217085307650c8d32f08e2b590f631">
+        <dex dex="/Users/rob/Desktop/schoolclash_app/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-unspecified-debug_da106cbab63eac78014b9a90e014a416335b49ea.jar" />
+    </item>
+
+</items>
