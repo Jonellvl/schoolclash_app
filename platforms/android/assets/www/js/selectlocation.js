@@ -2,14 +2,18 @@ function getLocations(){
 	var feedurl = "http://api.schoolclash.eu:5000/api/location";
 	console.log(1);
 
-	 jQuery.ajax({
-            type: "GET",
-            url: feedurl,
-            dataType: 'json',
-            data: 'data',
-            success: function(data) {
-                object = data;
-                console.log(2);
-            } 
-        });
+	$.ajax({
+	    url: "locations.json",
+	    dataType: 'JSONP',
+	    jsonpCallback: 'callback',
+	    type: 'GET',
+	    success: function (data) {
+	        console.log(data);
+
+	        console.log(data["lat"]);
+	        $("body").append("<div class='location-block'>\
+				<img src='data:image/jpeg;base64, " + data["img"] + "' />\
+	        	</div>");
+	    }
+	});
 }
