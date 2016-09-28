@@ -66,21 +66,31 @@ body {
 }
 
 .location-list .location .text h2, .location-list .location .text p{
-    width: 30%;
-    border: 1px solid #000;
-    float: right;
-    position: relative;
+
     color: #fff;
 }
 
-.location-list .location .text img{
-    width: 50%;
-    position: relative;
-    display: block;
 
-}
 
 a{
     color: inherit;
     text-decoration: none;
+}
+
+.text img{
+    width: 50%;
+    display: inline-block;
+}
+.wrapper-text{
+    width: calc(50% - 20px);
+    float:right;
+    padding: 10px;
+    display:inline-block;
+}
+
+.blue-line-wrapper{
+    height: 30px;
+    width: 40%;
+    border-bottom: 3px solid #0CAADC;
+    margin:0 auto 15px auto;
 }
