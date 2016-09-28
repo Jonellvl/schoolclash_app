@@ -1,12 +1,13 @@
+# Mac
+.DS_Store
 
-www/.DS_Store
+# Node
+npm-debug.log
+/node_modules
 
-www/img/.DS_Store
+# Cordova
+/platforms
+/plugins
 
-www/.DS_Store
-
-.idea/workspace.xml
-
-www/img/mapTiles/.DS_Store
-
-platforms/android/*/*
+# res
+resources/signing
