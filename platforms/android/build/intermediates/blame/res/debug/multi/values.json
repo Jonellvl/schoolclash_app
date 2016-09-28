@@ -1,10 +1,6 @@
 [
     {
-<<<<<<< HEAD
         "outputFile": "/Users/rob/Desktop/schoolclash_app/platforms/android/build/intermediates/res/merged/debug/values/values.xml",
-=======
-        "outputFile": "/Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/build/intermediates/res/merged/debug/values/values.xml",
->>>>>>> origin/application
         "map": [
             {
                 "to": {
@@ -15,11 +11,7 @@
                     "endOffset": 114
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "/Users/rob/Desktop/schoolclash_app/platforms/android/res/values/strings.xml",
-=======
-                    "file": "/Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/res/values/strings.xml",
->>>>>>> origin/application
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -38,11 +30,7 @@
                     "endOffset": 163
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "/Users/rob/Desktop/schoolclash_app/platforms/android/res/values/strings.xml",
-=======
-                    "file": "/Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/res/values/strings.xml",
->>>>>>> origin/application
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -61,11 +49,7 @@
                     "endOffset": 222
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "/Users/rob/Desktop/schoolclash_app/platforms/android/res/values/strings.xml",
-=======
-                    "file": "/Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/res/values/strings.xml",
->>>>>>> origin/application
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
