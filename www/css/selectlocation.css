@@ -61,14 +61,16 @@ header #icon img{
 .location-block{
 	color: white;
 	text-decoration: none;
-	background: red;
+	background: #459695;
+	margin: 15px 0 0 0;
 	height: 100px;	
 	display: block;
 	overflow: hidden;
 }
 
 .content{
-	width: 50%;
+	width: calc(50% - 20px);
+	padding: 10px;
 	display: inline-block;
 	float: right;
 }
