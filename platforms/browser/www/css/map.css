@@ -104,8 +104,12 @@ body,ul,li {
 body {
     font-size: 12px;
     font-family: 'Montserrat', sans-serif;
+<<<<<<< HEAD
     overflow: hidden; /* this is important to prevent the whole page to bounce */
     background: url(../img/background_kaart.jpg) no-repeat center center fixed; 
+=======
+    background: url(../img/background_kaart.jpg) no-repeat center center fixed;
+>>>>>>> master
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -187,7 +191,7 @@ h1.plattegrond {
 }
 
 .locations_button {
-    width:90%;
+    width:100%;
     font-size:18px;
     color:white;
     background-color:#459695;
@@ -197,6 +201,11 @@ h1.plattegrond {
     margin-bottom: 73px;
     margin-top:35px;
     text-decoration: none;
+<<<<<<< HEAD
+=======
+    margin-bottom: 10px;
+
+>>>>>>> master
 }
 
 a.locatiebutton {

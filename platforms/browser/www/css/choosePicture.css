@@ -29,6 +29,11 @@ body{
 .backButton{
     position: absolute;
     left: 0;
+<<<<<<< HEAD
     top: 0;
+=======
+    right: 0;
+    width: 11.31px;
+>>>>>>> master
     margin: 20px;
 }

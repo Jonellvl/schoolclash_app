@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="5cc519050e84180a126c57ee8e379c391411afdb">
+        <dex dex="/Applications/XAMPP/xamppfiles/htdocs/www/schoolclash_app/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-unspecified-debug_7ad82a18d9be1f35f339dcb4182b5c4b315c6748.jar" />
+    </item>
+
+</items>
