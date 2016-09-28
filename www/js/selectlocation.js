@@ -3,12 +3,17 @@ function getLocations(){
 	console.log(1);
 
 	$.ajax({
-	    url: feedurl,
+	    url: "locations.json",
 	    dataType: 'JSONP',
 	    jsonpCallback: 'callback',
 	    type: 'GET',
 	    success: function (data) {
 	        console.log(data);
+
+	        console.log(data["lat"]);
+	        $("body").append("<div class='location-block'>\
+				<img src='data:image/jpeg;base64, " + data["img"] + "' />\
+	        	</div>");
 	    }
 	});
 }
