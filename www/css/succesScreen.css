@@ -1,6 +1,11 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+
 body{
     background-color: #459695;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     margin: 0;
 }
 

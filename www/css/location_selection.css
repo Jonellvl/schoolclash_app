@@ -1,6 +1,12 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+
 body {
   background: #fff;
   margin: 0;
+  font-family: "Montserrat";
 }
 .header {
   position: relative;
