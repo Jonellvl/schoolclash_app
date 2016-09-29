@@ -1,99 +1,124 @@
 #!flask/bin/python
 #Load all the includes
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, current_app
 from werkzeug import secure_filename
+from flask_jsonpify import jsonify
 import base64
 import os
 import MySQLdb
 import MySQLdb.cursors
-import yagmail
+import json
+from functools import wraps
 
+#Initialize our application
 app = Flask(__name__)
 
 UPLOAD_FOLDER = './uploads'
 app.config['UPLOADFOLDER'] = UPLOAD_FOLDER
-#initialize SMTP server
-yag = yagmail.SMTP('api.schoolclash@gmail.com', 'garagedeur1')
 
 #Initialize database connection
-database = MySQLdb.connect(host = "localhost", user = "root", passwd = "root", db = "schoolclash")
+database = MySQLdb.connect(host = "localhost", user = "root", passwd = "root", db = "cms")
 c = database.cursor()
 
-#Execute our query to fetch the data from the CMS-Database
-c.execute("SELECT question_id, title, text, x, y, completed FROM locations")
-locations = database.fetchone()
+#Execute our query to fetch the location-data from the CMS-Database
+c.execute("SELECT question_id, title, text, x, y, completed, image FROM locations")
+locations = c.fetchall()
+#For row in query_results define variables(dict)
+for row in locations:
+	db_questionid = row[0]
+	db_title = row[1]
+	db_text = row[2]
+	db_long = row[3]
+	db_lat = row[4]
+	db_completed = row[5]
+	db_image = row[6]
+#This part encodes the image to base64 so it can be transported over JSON
+	db_image_location = "/var/www/cms/public/uploads/location/image/%s/%s" % (db_questionid, db_image)
+	image = open(db_image_location, 'rb')
+	imageread = image.read()
+	imageb64 = base64.encodestring(imageread)
+#Print all the rows to test if oswur query gets all the data
+d = {}
+for i, row in enumerate(locations):
+	l = []
+	for col in range(0, len(row)):
+		l.append(row[col])
+	d[i] = l
+	for s in range(0, len(d)):
+		for x in d[s]: print x
 
+#Execute our query to fetch question-data from the CMS-Database
 c.execute("SELECT answer, question_id, correct FROM answers")
-answers = database.fetchone()
-
+answers = c.fetchall()
+for row in answers:
+	db_answer = row[0]
+	db_question_id = row[1]
+	db_correct = row[2]
+#For row in query_results define variables(dict)
 c.execute("SELECT question FROM questions")
-questions = database.fetchone()
-
+questions = c.fetchall()
+for row in questions:
+	db_questions = row[0]
+#Create an include-able function to add JSONP support and allow use of /api/{call}?callback=callback
+def support_jsonp(f):
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        callback = request.args.get('callback', False)
+        if callback:
+            content =  str(f().data) 
+            return current_app.response_class(content, mimetype='application/json')
+        else:
+            return f(*args, **kwargs)
+    return decorated_function
 #Define the route to the API call (GET /api/content) and spit out json
-app.route('/api/question')
+@app.route('/api/question')
+@support_jsonp
 def get_question():
-    for i in answers:
-        if answers[answer]:
+    for row in answers:
+        if db_answer:
             return jsonify(
-                id=answers['question_id'],
-                answer=answers['answer'],
+                id=db_question_id,
+                answer=db_answer,
                 multiplechoice="true",
-                questions=[dict(answer1="dit is een fout antwoord", answer2="dit is een fout antwoord", answer3="dit is een goed antwoord")]
-        )
+                questions=[dict(answer1="dit is een fout antwoord", answer2="dit is een fout antwoord", answer3="dit is een goed antwoord")],
+		correct=db_correct       
+)
         else:
             return jsonify(
-                id=answers['question_id'],
-                multiplechoice=false,
-                questions=questions['question']
+                id=db_question_id,
+                multiplechoice="false",
+                questions=db_questions,
         )
 
-#Output all location data from query 
-@app.route('/api/locations')
-def get_locations():
-    for i in locations:
-        return jsonify(
-            questionid=locations['question_id'],
-            title=locations['title'],
-            text=locations['text'],
-            long=locations['x'],
-            lat=locations['y'],
-            completed=locations['completed']
-        )     
-#Open an image and encode it in Base64 to make it transportable over json
-image = open('image.png', 'rb')
-imageread = image.read()
-imageb64 = base64.encodestring(imageread)
+content = {
+		'title' : db_title,
+		'content' : db_text.decode("ISO-8859-1"),
+		'img' :imageb64
+}
 
-#Initialize Flask
 
 #This is the data spitten out by /api/content | Note to self: use data from the Database in this
-content = [
-      {
-              "title": "2009",
-              "content": "blablalblalbla",
-              "img": "1.jpg"
-            
-      },
-      {
-              "title": "2008",
-              "content": "blablalblalbla",
-              "img": "2.jpg"
-            
-      },
-      {
-              "title": "2011",
-              "content": "blablalblalbla",
-              "img": "3.jpg"
-            
-      }
-]
-
-
-#Define the route to the API call (GET /api/content) and spit out json
-@app.route('/api/content', methods=['GET'])
+@app.route('/api/content')
+@support_jsonp
 def get_content():
-    return jsonify({'content': content})
-headers = {'Content-Type': 'application/json'}
+	for row in locations:
+        	return jsonify({"content": content})
+locdata = {
+            'id' : db_questionid,
+            'title' : db_title,
+            'text' : db_text.decode("ISO-8859-1"),
+            'long' : db_long,
+            'lat' : db_lat,
+            'completed' : db_completed,
+            'img' : imageb64
+
+}
+#Output all location data from query 
+@app.route('/api/location')
+@support_jsonp
+def get_locations():
+    for row in locations:
+	return jsonify({"content": locdata})
 
 #Define the route to the API call (GET /api/image) and spit out json
 @app.route('/api/image', methods=['GET'])
@@ -101,19 +126,6 @@ def get_b64Image():
     return jsonify({'image': imageb64})
 app.secret_key = os.urandom(30)
 headers = {'Content-Type': 'application/json'}
-@app.route('/upload', methods = ['GET', 'POST'])
-def upload_file():
-           return render_template('upload.html')
-
-@app.route('/uploader', methods = ['GET', 'POST'])
-def upload_file():
-    if request.method == 'POST':
-           f = request.files['file']
-           f.save(secure_filename(f.filename))
-           return 'file uploaded successfully'
-    contents = "<h1>PDF - Verstuurd</h1> je kunt de pdf bestanden vinden in de bijlage"
-    file_names = f.filename
-    attachment="/home/jordy/schoolclash_app/uploads/%s" % (file_names)
-    yag.send("test@schoolclash.eu", "PDF - Aangekomen", contents, attachments=attachment)
+#Make the application run itself on 0.0.0.0 and allow debugging while developing
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', debug=True)
