@@ -1,12 +1,17 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+
 header{
     background-color: white;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     position: relative;
     display: flex;
 }
 body {
     background-color: white;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     margin: 0;
 }
 .monumentPicture{
