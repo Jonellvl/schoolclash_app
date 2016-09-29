@@ -37,6 +37,9 @@
 
    <!--<script type="text/javascript" src="js/index.js"></script>-->
     <script type="text/javascript">
+
+        alert(filesDownloaded());
+        
         $( "#refresh" ).click(function() {
             console.log("log refresh");
             var url = "file:///js/json/content.json";
@@ -45,12 +48,13 @@
                 file.remove(function(){
                     console.log(url + " deleted");
                     alert("deleted");
+                    location.reload();
                 },onError);
             }, onError);
         });
 
         $.ajax({
-        url:'js/json/content.json',
+        url:'js/json/cont1ent.json',
         type:'HEAD',
         error: function()
         {
