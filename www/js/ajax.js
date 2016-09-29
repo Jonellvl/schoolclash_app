@@ -1,35 +1,41 @@
 // Kijkt of de bestanden al gedownload zijn
 function filesDownloaded(){
 
-    // Lege var voor de db instantie
-    var db = null;
-
-    // Open database
-    document.addEventListener('deviceready', function() {
-      db = window.sqlitePlugin.openDatabase({name: 'database.db', location: 'default'});
-
-                console.log(3);
-    
-    // Kijk of de table Questions bestaat
-     db.executeSql("select DISTINCT tbl_name from sqlite_master where tbl_name = 'questions'", [], function(result) {  
-           if(result.rows.length > 0 ){
-                return true;
-                console.log(1);
-           }else{
-                return false;
-
-                console.log(2);
-           }
-        });
-    });
 }
 
 function downloadFiles(){
-    var db = null;
+    console.log(1);
+    // Maak GET reqeust naar api
+    var feedurl = "http://api.schoolclash.eu:5000/api/location?callback=callback";
+    $.ajax({
+        url: feedurl,
+        dataType: 'JSONP',
+        jsonpCallback: 'callback',
+        type: 'GET',
+        timeout:0,
+        success: function (data) {
+            console.log(2);
 
-    // Open database
-    document.addEventListener('deviceready', function() {
-      db = window.sqlitePlugin.openDatabase({name: 'database.db', location: 'default'});
+            console.log(data);
+
+            // Zet JSON om naar string 
+            var localData = JSON.stringify(data);
+
+            // Sla het op in de lokale storage
+            window.localStorage.setItem('questions', localData);
+         $('#content-index').html("\
+                       <div class='idText'>\
+           Vul hieronder de ID<br>in die je hebt gekregen.\
+           </div>\
+           <div class='inputvelden'>  </div>\
+           <div class='inputvelden'>\
+             <input class='key' type='number' name='name' placeholder='Groep ID'>\
+             <a href='map.html'><input class='submit' type='submit' value='Meedoen'></a>\
+          </div>");
+        },
+        error: function(){
+            console.log(3);
+        }
     });
 }
 
