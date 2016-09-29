@@ -543,7 +543,7 @@ module.exports.metadata =
     "cordova-plugin-vibration": "2.1.2",
     "cordova-plugin-whitelist": "1.2.2",
     "cordova-plugin-ios-camera-permissions": "1.0.0",
-    "cordova-plugin-camera": "2.1.1"
+    "cordova-plugin-camera": "2.3.0"
 };
 // BOTTOM OF METADATA
 });

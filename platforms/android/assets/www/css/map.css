@@ -23,7 +23,8 @@
 
 @font-face {
   font-family: Montserrat;
-  src: url(../fonts/Montserrat-Regular.ttf);
+  src: url(../Fonts/Montserrat-Regular.ttf);
+
 }
 
 /* Landscape layout (with min-width) */

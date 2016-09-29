@@ -1,6 +1,7 @@
 @font-face {
   font-family: Montserrat;
-  src: url(../fonts/Montserrat-Regular.ttf);
+  src: url(../Fonts/Montserrat-Regular.ttf);
+
 }
 @import 'https://fonts.googleapis.com/css?family=Montserrat';
 
@@ -14,16 +15,19 @@ body{
 .check{
     display: block;
     margin: 0 auto;
-    margin-top: 20%;
+    margin-top: 20px;
 }
 
 h2{
     color: white;
-    margin: 45px 0 0 0;
+    margin: 25px 0 0 0;
     text-align: center;
 }
+.container {
+  padding: 20px;
+}
 hr{
-    margin: 35px 40% 0 40%;
+    margin: 20px 40% 20px 40%;
     border: none;
     height: 3px;
     background-color: white;
@@ -38,8 +42,8 @@ button{
     color: white;
     background-color: #459695;
     width: 80%;
-    margin: 30px 0 10px 10%;
-    height: 42px;
+    margin: 20px 0 10px 10%;
+    height: 50px;
     border: 1px solid white;
 }
 
