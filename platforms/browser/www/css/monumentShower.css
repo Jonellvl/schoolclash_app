@@ -1,12 +1,18 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+
 header{
     background-color: white;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     position: relative;
     display: flex;
 }
 body {
     background-color: white;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     margin: 0;
 }
 .monumentPicture{
@@ -33,11 +39,11 @@ body {
   left: 0;
 }
 .title-bar .text h2 {
-  font-family: Helvetica;
+  font-family: "Montserrat";
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-top: 0px;
+  margin: 0;
   color: #fff;
 }
 h3{
@@ -48,7 +54,7 @@ h3{
     color: white;
     justify-content: center;
     align-items: center;
-    margin-top: 30%;
+    margin: 30% 0 0 0;
     text-transform: uppercase;
 }
 .backButton{
@@ -56,17 +62,14 @@ h3{
     position: fixed;
     left: 0;
     right: 0;
-    margin: 20px;
+    padding: 30px;
     width: 11,31px;
     height: 19px;
     justify-content: center;
     align-items: center;
 }
 hr{
-    margin-top: 40px;
-    margin-left: 40%;
-    margin-right: 40%;
-    margin-bottom: 0px;
+    margin: 40px 40% 0 40%;
     border: none;
     height: 2px;
     background-color: #459695;
@@ -75,10 +78,8 @@ hr{
     color: white;
     background-color: #459695;
     width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 20px;
-    margin-bottom: 0px;
+    padding: 0 20px 0 20px;
+    margin: 20px 0 0 0;
     height: 50px;
     border: none;
     cursor: pointer;

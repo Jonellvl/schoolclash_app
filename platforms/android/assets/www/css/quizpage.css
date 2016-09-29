@@ -1,10 +1,17 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
 * {
   -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
 }
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+
 body {
   background: #fff;
   margin: 0;
+  font-family: "Montserrat";
 }
 .header {
   position: relative;
@@ -14,7 +21,7 @@ body {
   z-index: 99999;
   top: 0;
   left: 0;
-  margin: 20px;
+  padding: 30px;
 }
 .header .image .image-item {
   z-index: 1;
@@ -23,7 +30,7 @@ body {
   filter: brightness(45%);
 }
 .title-bar .title h2 {
-  font-family: Helvetica;
+  font-family: "Montserrat";
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
@@ -49,12 +56,12 @@ body {
 }
 .location-list .location .text p.plaats {
   font-size: 12px;
-  font-style: Georgia;
+  font-style: Montserrat;
   font-style: italic;
   opacity: 0.5;
 }
 .location-list .location .text p.omschrijving {
-  font-family: Helvetica;
+  font-family: Montserrat;
   font-size: 15px;
 }
 .container {
@@ -69,7 +76,7 @@ body {
   padding: 0;
 }
 ul li{
-  font-family: Helvetica;
+  font-family: "Montserrat";
   font-size: 15px;
   color: #000;
   display: block;
@@ -99,7 +106,7 @@ ul li label{
 ul li h3 {
   padding-left: 20px;
   font-size: 15px;
-  font-family: Helvetica;
+  font-family: Montserrat;
   color: #459695;
   font-weight: bold;
 }
@@ -160,7 +167,7 @@ input[type=radio]:checked ~ label{
   border: 1px solid #e1efef;
   height: 100%;
   font-size: 13px;
-  font-family: Helvetica;
+  font-family: Montserrat;
   color: #459695;
   font-weight: bold;
   margin-bottom: 0px;
