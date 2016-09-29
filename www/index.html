@@ -38,34 +38,31 @@
    <!--<script type="text/javascript" src="js/index.js"></script>-->
     <script type="text/javascript">
 
-        alert(filesDownloaded());
-        
-        $( "#refresh" ).click(function() {
-            console.log("log refresh");
-            var url = "file:///js/json/content.json";
 
-            window.resolveLocalFileSystemURL(url, function(file) {
-                file.remove(function(){
-                    console.log(url + " deleted");
-                    alert("deleted");
-                    location.reload();
-                },onError);
-            }, onError);
-        });
+        // $( "#refresh" ).click(function() {
+        //     console.log("log refresh");
+        //     var url = "file:///js/json/content.json";
+
+        //     window.resolveLocalFileSystemURL(url, function(file) {
+        //         file.remove(function(){
+        //             console.log(url + " deleted");
+        //             alert("deleted");
+        //             location.reload();
+        //         },onError);
+        //     }, onError);
+        // });
 
         $.ajax({
-        url:'js/json/cont1ent.json',
+        url:'js/json/content.json',
         type:'HEAD',
-        error: function()
-        {
+        error: function(){
             $('#refresh').html("<div class='idText'>\
            Download alle vragen<br>Doe dit op wifi.</div>\
            <div class='inputvelden'>\
             <input class='submit' type='button' value='Download vragen'>\
           </div>");
         },
-        success: function()
-        {
+        success: function(){
          $('#content-index').html("\
                        <div class='idText'>\
            Vul hieronder de ID<br>in die je hebt gekregen.\

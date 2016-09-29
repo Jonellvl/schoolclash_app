@@ -64,10 +64,10 @@
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.schoolclash.toolapp"
         },
-        "org.apache.cordova.camera": {
+        "cordova-sqlite-storage": {
             "PACKAGE_NAME": "com.schoolclash.toolapp"
         },
-        "cordova-sqlite-storage": {
+        "org.apache.cordova.camera": {
             "PACKAGE_NAME": "com.schoolclash.toolapp"
         }
     },
