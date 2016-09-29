@@ -1,6 +1,12 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+
 body {
   background: #fff;
   margin: 0;
+  font-family: "Montserrat";
 }
 .header {
   position: relative;
@@ -26,9 +32,11 @@ body {
   filter: brightness(45%);
 }
 
- #img{
-    width: 50%;
+.image_2{
+    width: 158px!important;
+    height: 120px!important;
 }
+
 .title-bar .text {
   text-align: center;
   position: absolute;
@@ -55,46 +63,36 @@ body {
   right: 0;
   margin-top: 30px;
 }
-
-.location-list .location{
-    padding: 10px;
+.location-list {
+  margin-top: 30px;
+  padding: 15px;
 }
-
-.location-list .location .text{
-    margin: 15px 0 0 0;
-    background-color: #459695;
+.location-list .location {
+  background-color: rgba(69, 150, 149, 0.5);
+  height: 120px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-
-.location-list .location .text h2, .location-list .location .text p{
-
-    color: #fff;
+.location-list .location .image {
+  float: left;
+  padding-right: 10px;
 }
-
-
+.location-list .location .text {
+  display: block;
+  padding: 5px;
+}
+.location-list .location .text p.plaats {
+  font-size: 12px;
+  font-style: Georgia;
+  font-style: italic;
+  opacity: 0.5;
+}
+.location-list .location .text p.omschrijving {
+  font-family: Helvetica;
+  font-size: 15px;
+}
 
 a{
     color: inherit;
     text-decoration: none;
-}
-
-.text{
-    display: block;
-}
-
-.text img{
-    width: 50%;
-    display: inline-block;
-}
-.wrapper-text{
-    width: calc(50% - 20px);
-    float:right;
-    padding: 10px;
-    display:inline-block;
-}
-
-.blue-line-wrapper{
-    height: 30px;
-    width: 40%;
-    border-bottom: 3px solid #0CAADC;
-    margin:0 auto 15px auto;
 }

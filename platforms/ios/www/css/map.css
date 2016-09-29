@@ -20,7 +20,10 @@
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
 }
 
-
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
 
 /* Landscape layout (with min-width) */
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
@@ -72,13 +75,13 @@
     50% { opacity: 0.4; }
     to { opacity: 1.0; }
 }
- 
+
 @-webkit-keyframes fade {
     from { opacity: 1.0; }
     50% { opacity: 0.4; }
     to { opacity: 1.0; }
 }
- 
+
 .blink {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
@@ -104,7 +107,6 @@ body,ul,li {
 body {
     font-size: 12px;
     font-family: 'Montserrat', sans-serif;
-    overflow: hidden; /* this is important to prevent the whole page to bounce */
     background: url(../img/background_kaart.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -188,12 +190,10 @@ h1.plattegrond {
 }
 
 .locations_button {
-    width:100% !important;
-    font-size:18px;
+    height: 50px;
     color:white;
     background-color:#459695;
     text-align: center;
-    padding:10px;
     margin:0 auto;
     margin-bottom: 73px;
     margin-top:35px;
@@ -203,6 +203,19 @@ h1.plattegrond {
 a.locatiebutton {
     text-decoration: none;
     color:white;
+    padding: 5px;
 }
-
-
+.container button {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #459695;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  padding: 15px 32px;
+  width: 100%
+}

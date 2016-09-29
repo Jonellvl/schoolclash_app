@@ -1,6 +1,11 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+
 body{
     background-color: #459695;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     margin: 0;
 }
 
@@ -12,14 +17,11 @@ body{
 
 h2{
     color: white;
-    margin-top: 45px;
+    margin: 45px 0 0 0;
     text-align: center;
 }
 hr{
-    margin-top: 35px;
-    margin-left: 40%;
-    margin-right: 40%;
-    margin-bottom: 00px;
+    margin: 35px 40% 0 40%;
     border: none;
     height: 3px;
     background-color: white;
@@ -34,9 +36,7 @@ button{
     color: white;
     background-color: #459695;
     width: 80%;
-    margin-left: 10%;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin: 30px 0 10px 10%;
     height: 42px;
     border: 1px solid white;
 }
