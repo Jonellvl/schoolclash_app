@@ -13,7 +13,7 @@ function getLocations(){
 
 	        $("body").append("\
 	        	<a href='showQeustion.html?id=" + data["id"] + "' class='location-block'>\
-					<div class='image'><img src='data:image/jpeg;base64, " + data["img"] + "' /></div>\
+					<div class='image'><img src='data:image/jpeg;base64, " + data["image"] + "' /></div>\
 					<div class='content'>\
 	        			<h3>" + data["title"] + "</h3>\
 	        		</div>\
