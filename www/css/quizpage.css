@@ -1,8 +1,8 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
 * {
   -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
 }
-
 @font-face {
   font-family: Montserrat;
   src: url(../fonts/Montserrat-Regular.ttf);

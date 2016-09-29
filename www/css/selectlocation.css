@@ -2,6 +2,7 @@
   font-family: Montserrat;
   src: url(../fonts/Montserrat-Regular.ttf);
 }
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
 
 body{
 	margin: 0;
@@ -23,7 +24,7 @@ header #header-content{
 
 header h1{
 	color: white;
-	 
+
 }
 
 header #icon{
@@ -69,7 +70,7 @@ header #icon img{
 	text-decoration: none;
 	background: #459695;
 	margin: 15px auto 0 auto;
-	height: 100px;	
+	height: 100px;
 	display: block;
 	overflow: hidden;
 	width: 95%;

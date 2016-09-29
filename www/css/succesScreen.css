@@ -2,6 +2,8 @@
   font-family: Montserrat;
   src: url(../fonts/Montserrat-Regular.ttf);
 }
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+
 
 body{
     background-color: #459695;
