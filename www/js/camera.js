@@ -22,7 +22,7 @@
 //     // files already exist
 //  }
 
-//options for camera, for more options: http://cordova.apache.org/docs/en/latest/reference/cordova-plugin-camera/inde1x.html
+//options for camera, for more options: http://cordova.apache.org/docs/en/latest/reference/cordova-plugin-camera/index.html
 var cameraOptions = {
   quality: 50,
   allowEdit: false,

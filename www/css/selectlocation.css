@@ -83,5 +83,6 @@ header #icon img{
 }
 
 .image img{
-	height: 100px;
+	height: auto;
+	width: 100%;
 }
