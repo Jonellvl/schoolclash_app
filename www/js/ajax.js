@@ -20,7 +20,7 @@ function downloadFiles(){
 
             // Zet JSON om naar string 
             var localData = JSON.stringify(data);
-
+            
             // Sla het op in de lokale storage
             window.localStorage.setItem('questions', localData);
          $('#content-index').html("\
