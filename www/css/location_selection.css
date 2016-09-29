@@ -55,7 +55,7 @@ body {
 }
 .title-bar .border-blue {
   height: 3px;
-  background: #0CAADC;
+  background: #459695;
   width: 25%;
   margin: 0 auto;
   position: absolute;
@@ -68,7 +68,7 @@ body {
   padding: 15px;
 }
 .location-list .location {
-  background-color: rgba(69, 150, 149, 0.5);
+  background-color: #459695;
   height: 120px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -88,8 +88,10 @@ body {
   opacity: 0.5;
 }
 .location-list .location .text p.omschrijving {
+  margin-top: 45px;
   font-family: Helvetica;
   font-size: 15px;
+  color: white;
 }
 
 a{
