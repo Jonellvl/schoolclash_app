@@ -12,7 +12,7 @@ header{
 }
 body {
     background-color: white;
-    font-family: inherit;
+    font-family: "Montserrat";
     margin: 0;
 }
 .monumentPicture{
@@ -39,7 +39,7 @@ body {
   left: 0;
 }
 .title-bar .text h2 {
-  font-family: inherit;
+  font-family: "Montserrat";
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;

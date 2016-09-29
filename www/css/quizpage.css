@@ -30,7 +30,7 @@ body {
   filter: brightness(45%);
 }
 .title-bar .title h2 {
-  font-family: inherit;
+  font-family: "Montserrat";
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
@@ -76,7 +76,7 @@ body {
   padding: 0;
 }
 ul li{
-  font-family: inherit;
+  font-family: "Montserrat";
   font-size: 15px;
   color: #000;
   display: block;
