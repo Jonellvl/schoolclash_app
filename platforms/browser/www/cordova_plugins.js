@@ -15,6 +15,36 @@ module.exports = [
         "runs": true
     },
     {
+        "file": "plugins/cordova-plugin-camera/www/CameraConstants.js",
+        "id": "cordova-plugin-camera.Camera",
+        "pluginId": "cordova-plugin-camera",
+        "clobbers": [
+            "Camera"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-camera/www/CameraPopoverOptions.js",
+        "id": "cordova-plugin-camera.CameraPopoverOptions",
+        "pluginId": "cordova-plugin-camera",
+        "clobbers": [
+            "CameraPopoverOptions"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-camera/www/Camera.js",
+        "id": "cordova-plugin-camera.camera",
+        "pluginId": "cordova-plugin-camera",
+        "clobbers": [
+            "navigator.camera"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-camera/src/browser/CameraProxy.js",
+        "id": "cordova-plugin-camera.CameraProxy",
+        "pluginId": "cordova-plugin-camera",
+        "runs": true
+    },
+    {
         "file": "plugins/cordova-plugin-media-capture/www/CaptureAudioOptions.js",
         "id": "cordova-plugin-media-capture.CaptureAudioOptions",
         "pluginId": "cordova-plugin-media-capture",
@@ -574,40 +604,19 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/org.apache.cordova.camera/www/CameraConstants.js",
-        "id": "org.apache.cordova.camera.Camera",
-        "pluginId": "org.apache.cordova.camera",
+        "file": "plugins/cordova-sqlite-storage/www/SQLitePlugin.js",
+        "id": "cordova-sqlite-storage.SQLitePlugin",
+        "pluginId": "cordova-sqlite-storage",
         "clobbers": [
-            "Camera"
+            "SQLitePlugin"
         ]
-    },
-    {
-        "file": "plugins/org.apache.cordova.camera/www/CameraPopoverOptions.js",
-        "id": "org.apache.cordova.camera.CameraPopoverOptions",
-        "pluginId": "org.apache.cordova.camera",
-        "clobbers": [
-            "CameraPopoverOptions"
-        ]
-    },
-    {
-        "file": "plugins/org.apache.cordova.camera/www/Camera.js",
-        "id": "org.apache.cordova.camera.camera",
-        "pluginId": "org.apache.cordova.camera",
-        "clobbers": [
-            "navigator.camera"
-        ]
-    },
-    {
-        "file": "plugins/org.apache.cordova.camera/src/browser/CameraProxy.js",
-        "id": "org.apache.cordova.camera.CameraProxy",
-        "pluginId": "org.apache.cordova.camera",
-        "runs": true
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
     "cordova-plugin-battery-status": "1.1.2",
+    "cordova-plugin-camera": "2.1.1",
     "cordova-plugin-media-capture": "1.2.0",
     "cordova-plugin-console": "1.0.4",
     "cordova-plugin-contacts": "2.0.1",
@@ -627,7 +636,7 @@ module.exports.metadata =
     "cordova-plugin-vibration": "2.1.2",
     "cordova-plugin-whitelist": "1.2.2",
     "cordova-plugin-compat": "1.0.0",
-    "org.apache.cordova.camera": "0.3.5"
+    "cordova-sqlite-storage": "1.4.7"
 }
 // BOTTOM OF METADATA
 });

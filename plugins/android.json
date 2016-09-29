@@ -66,6 +66,9 @@
         },
         "org.apache.cordova.camera": {
             "PACKAGE_NAME": "com.schoolclash.toolapp"
+        },
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "com.schoolclash.toolapp"
         }
     },
     "dependent_plugins": {

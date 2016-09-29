@@ -1,6 +1,14 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
 module.exports = [
     {
+        "id": "cordova-sqlite-storage.SQLitePlugin",
+        "file": "plugins/cordova-sqlite-storage/www/SQLitePlugin.js",
+        "pluginId": "cordova-sqlite-storage",
+        "clobbers": [
+            "SQLitePlugin"
+        ]
+    },
+    {
         "id": "org.apache.cordova.camera.Camera",
         "file": "plugins/org.apache.cordova.camera/www/CameraConstants.js",
         "pluginId": "org.apache.cordova.camera",
@@ -209,6 +217,7 @@ module.exports = [
 module.exports.metadata = 
 // TOP OF METADATA
 {
+    "cordova-sqlite-storage": "1.4.7",
     "org.apache.cordova.camera": "0.3.5",
     "cordova-plugin-compat": "1.0.0",
     "cordova-plugin-file": "4.3.0"

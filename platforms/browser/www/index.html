@@ -8,7 +8,6 @@
     <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
 
     <script src="js/jquery-3.1.1.js"></script>
-    <script src="js/cordova.js"></script>
     <script src="js/formBuilder.js"></script>
     <script src="js/requestController.js"></script>
     <script src="js/ajax.js"></script>
@@ -28,7 +27,7 @@
   <img src="img/logo.png" class="logo">
   </div>
   <div class="welcome">
-      WELCOME AT<br>SCHOOLCLASH!!
+      WELCOME AT<br>SCHOOLCLASH
   </div>
   <div class="blok">
   </div>
@@ -40,21 +39,15 @@
     <script type="text/javascript">
         $( "#refresh" ).click(function() {
             console.log("log refresh");
-            function del() {
-                window.resolveLocalFileSystemURL(cordova.file.externalDataDirectory, function (dir) {
-                    dir.getFile("js/json/content.json", {create: false}, function (fileEntry) {
-                        fileEntry.remove(function (file) {
-                            location.reload();
-                            alert("fichier supprimer");
-                        }, function () {
-                            alert("erreur suppression " + error.code);
-                        }, function () {
-                            alert("fichier n'existe pas");
-                        });
-                    });
-                });
-            }
-            del();
+            var url = "file:///js/json/content.json";
+
+            window.resolveLocalFileSystemURL(url, function(file) {
+                file.remove(function(){
+                    console.log(url + " deleted");
+                    alert("deleted");
+                    location.reload();
+                },onError);
+            }, onError);
         });
 
         $.ajax({
@@ -84,7 +77,7 @@
       app.initialize();
     </script>
 
-    <!--<script src="cordova.js"></script>-->
+    <script src="cordova.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/jquery.easing.js"></script>
     <script src="js/jquery.easing.compatibility.js"></script>

@@ -45,6 +45,7 @@
                 file.remove(function(){
                     console.log(url + " deleted");
                     alert("deleted");
+                    location.reload();
                 },onError);
             }, onError);
         });
