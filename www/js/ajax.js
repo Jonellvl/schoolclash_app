@@ -1,8 +1,3 @@
-// Kijkt of de bestanden al gedownload zijn
-function filesDownloaded(){
-
-}
-
 function downloadFiles(){
     console.log(1);
     // Maak GET reqeust naar api
