@@ -10,20 +10,12 @@
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/formBuilder.js"></script>
     <script src="js/requestController.js"></script>
-    <script src="js/ajax.js"></script>
-
-    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/index.css" />
 
     <title>SchoolClash</title>
 </head>
 
 <body style="background: #459695 !important">
-<<<<<<< HEAD:www/index.html
-<div class="refresh">
-    <input class='submit' id="refresh" type='button' value='refresh content!'>
-</div>
-=======
     <div class="logoblok">
         <img src="img/logo.png" class="logo">
     </div>
@@ -31,86 +23,25 @@
         WELCOME AT<br>SCHOOLCLASH!!! _. branch test
     </div>
     <div class="blok"> </div>
->>>>>>> master:www/inde1x.html
 
-  <div class="logoblok">
-  <img src="img/logo.png" class="logo">
-  </div>
-  <div class="welcome">
-      WELCOME AT<br>SCHOOLCLASH
-  </div>
-  <div class="blok">
-  </div>
+    <div class="idText">
+        Vul hieronder de ID<br>in die je hebt gekregen.
+    </div>
 
-  <div id="content-index">
-      <div class='idText'>
-            Download alle vragen<br>Doe dit op wifi.</div>
-            <div class='inputvelden'>
-             <input class='submit' type='button' id='download' value='Download vragen'>
-           </div>
-  </div>
+    <div class="inputvelden">
+    <input class="key" type="number" name="name" placeholder="Groep ID">
+    <a href="map.html"><input class="submit" type="submit" value="Meedoen"></a>
+    </div>
+    <!--<script type="text/javascript" src="js/index.js"></script>-->
 
-   <!--<script type="text/javascript" src="js/index.js"></script>-->
+    <!--<button type="button" onclick="testknop()" name="button">test test</button>-->
+
+    <!--<script type="text/javascript" src="js/index.js"></script>-->
+
     <script type="text/javascript">
-
-        if (window.localStorage.getItem('questions')) {
-          $('#content-index').html("\
-                       <div class='idText'>\
-           Vul hieronder de ID<br>in die je hebt gekregen.\
-           </div>\
-           <div class='inputvelden'>  </div>\
-           <div class='inputvelden'>\
-             <input class='key' type='number' name='name' placeholder='Groep ID'>\
-             <a href='map.html'><input class='submit' type='submit' value='Meedoen'></a>\
-          </div>");
-        }
-
-         $( "#refresh" ).click(function() {
-             console.log("log refresh");
-                       $('#content-index').html("<div class='idText'>\
-           Download alle vragen<br>Doe dit op wifi.</div>\
-           <div class='inputvelden'>\
-            <input class='submit' type='button' id='download' value='Download vragen'>\
-          </div>");
-             $("#download").val("Downloading ...");
-            downloadFiles();
-         });
-
- $( "#download" ).click(function() {
-             console.log("log refresh");
-                       $('#content-index').html("<div class='idText'>\
-           Download alle vragen<br>Doe dit op wifi.</div>\
-           <div class='inputvelden'>\
-            <input class='submit' type='button' id='download' value='Download vragen'>\
-          </div>");
-             $("#download").val("Downloading ...");
-            downloadFiles();
-         });
-
-        // $.ajax({
-        // url:'js/json/conte1nt.json',
-        // type:'HEAD',
-        // error: function(){
-        //     $('#content-index').html("<div class='idText'>\
-        //    Download alle vragen<br>Doe dit op wifi.</div>\
-        //    <div class='inputvelden'>\
-        //     <input class='submit' type='button' id='download-vragen' value='Download vragen'>\
-        //   </div>");
-        // },
-        // success: function(){
-        //  $('#content-index').html("\
-        //                <div class='idText'>\
-        //    Vul hieronder de ID<br>in die je hebt gekregen.\
-        //    </div>\
-        //    <div class='inputvelden'>  </div>\
-        //    <div class='inputvelden'>\
-        //      <input class='key' type='number' name='name' placeholder='Groep ID'>\
-        //      <a href='map.html'><input class='submit' type='submit' value='Meedoen'></a>\
-        //   </div>");
-        // }
-        // });
-      app.initialize();
+    app.initialize();
     </script>
+
     <script src="cordova.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/jquery.easing.js"></script>

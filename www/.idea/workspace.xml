@@ -23,6 +23,7 @@
   <component name="FileEditorManager">
     <leaf>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <file leaf-file-name="ajax.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/ajax.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -42,11 +43,16 @@
             <state vertical-scroll-proportion="-12.5">
               <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
 =======
+=======
+>>>>>>> master
       <file leaf-file-name="inde1x.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/inde1x.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.30711207">
               <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
               <folding />
             </state>
@@ -60,8 +66,11 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
 <<<<<<< HEAD
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/js/json/location.json" />
         <option value="$PROJECT_DIR$/js/ajax.js" />
+=======
+>>>>>>> master
 =======
 >>>>>>> master
       </list>
@@ -104,7 +113,10 @@
     <panes>
       <pane id="Scope" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <pane id="Scratches" />
+=======
+>>>>>>> master
 =======
 >>>>>>> master
       <pane id="ProjectPane">
@@ -125,6 +137,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+<<<<<<< HEAD
 <<<<<<< HEAD
           <PATH>
             <PATH_ELEMENT>
@@ -165,6 +178,11 @@
       </pane>
       <pane id="Scratches" />
 >>>>>>> master
+=======
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+>>>>>>> master
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,7 +191,10 @@
     <property name="FullScreen" value="true" />
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
@@ -196,6 +217,9 @@
       <method />
     </configuration>
   </component>
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
@@ -209,6 +233,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+<<<<<<< HEAD
 <<<<<<< HEAD
     <editor active="true" />
     <layout>
@@ -231,6 +256,8 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
 =======
+=======
+>>>>>>> master
     <editor active="false" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -251,6 +278,9 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
     </layout>
   </component>
@@ -263,20 +293,27 @@
   </component>
   <component name="editorHistoryManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
 =======
+=======
+>>>>>>> master
     <entry file="file://$PROJECT_DIR$/inde1x.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -293,15 +330,21 @@
         <state vertical-scroll-proportion="-12.5">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
 =======
+=======
+>>>>>>> master
     <entry file="file://$PROJECT_DIR$/inde1x.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30711207">
           <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/js/ajax.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -314,6 +357,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> master
 =======
 >>>>>>> master
   </component>
