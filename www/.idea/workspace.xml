@@ -28,8 +28,8 @@
             <state vertical-scroll-proportion="0.5672269">
               <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
-                <marker date="1475159040000" expanded="true" signature="689:768" placeholder="..." />
-                <marker date="1475159040000" expanded="true" signature="852:1043" placeholder="..." />
+                <marker date="1475159396000" expanded="true" signature="689:768" placeholder="..." />
+                <marker date="1475159396000" expanded="true" signature="852:1043" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -51,8 +51,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/ajax.js" />
         <option value="$PROJECT_DIR$/js/json/location.json" />
+        <option value="$PROJECT_DIR$/js/ajax.js" />
       </list>
     </option>
   </component>
@@ -225,8 +225,8 @@
         <state vertical-scroll-proportion="0.5672269">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
-            <marker date="1475159040000" expanded="true" signature="689:768" placeholder="..." />
-            <marker date="1475159040000" expanded="true" signature="852:1043" placeholder="..." />
+            <marker date="1475159396000" expanded="true" signature="689:768" placeholder="..." />
+            <marker date="1475159396000" expanded="true" signature="852:1043" placeholder="..." />
           </folding>
         </state>
       </provider>
