@@ -1,5 +1,5 @@
 function downloadFiles(){
-    console.log(1);
+   
     // Maak GET reqeust naar api
     var feedurl = "http://api.schoolclash.eu:5000/api/location?callback=callback";
     $.ajax({
@@ -9,10 +9,7 @@ function downloadFiles(){
         type: 'GET',
         timeout:0,
         success: function (data) {
-            console.log(2);
-
-            console.log(data);
-
+           
             // Zet JSON om naar string 
             var localData = JSON.stringify(data);
             
@@ -20,7 +17,7 @@ function downloadFiles(){
             window.localStorage.setItem('questions', localData);
          $('#content-index').html("\
                        <div class='idText'>\
-           Vul hieronder de ID<br>in die je hebt gekregen.\
+           Please fill in your<br>group id.\
            </div>\
            <div class='inputvelden'>  </div>\
            <div class='inputvelden'>\
@@ -29,7 +26,11 @@ function downloadFiles(){
           </div>");
         },
         error: function(){
-            console.log(3);
+            $('#content-index').html("<div class='idText'>\
+           Error!<br>Something went wrong while downloading.</div>\
+           <div class='inputvelden'>\
+            <input class='submit' type='button' id='download' value='Download vragen'>\
+          </div>");
         }
     });
 }
