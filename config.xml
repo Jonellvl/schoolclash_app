@@ -1,12 +1,13 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.schoolclash.toolapp" version="1.0.0">
   <name>schoolClash</name>
-  <preference name="SplashScreen" value="none"/>
   <description></description>
   <author href="http://phonegap.com" email="support@phonegap.com">Alfa College</author>
   <content src="index.html"/>
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="android-minSdkVersion" value="14"/>
-  <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1"/>
+    <preference name="SplashScreen" value="none"/>
+    <preference name="FadeSplashScreenDuration" value="0"/>
+    <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1"/>
   <plugin name="cordova-plugin-camera" source="npm" spec="~2.3.0"/>
   <plugin name="cordova-plugin-media-capture" source="npm" spec="~1.2.0"/>
   <plugin name="cordova-plugin-console" source="npm" spec="~1.0.2"/>
