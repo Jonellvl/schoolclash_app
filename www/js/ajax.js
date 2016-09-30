@@ -36,8 +36,11 @@ function downloadFiles(page){
            <div class='inputvelden'>\
             <input class='submit' type='button' id='download' value='Download data'>\
           </div>");
-
-            $("#location-blocks").html("<div class='downloading-text'><h3> Error! </h3><br> Something went wrong while downloading the data</div>");
+            if (page == "selectlocation") {
+              $("#location-blocks").html("<div class='downloading-text'><h3> Error! </h3><br> Something went wrong while downloading the data</div>");
+            $("#refresh img").addClass('spin');
+            }
+            
         }
     });
 }
