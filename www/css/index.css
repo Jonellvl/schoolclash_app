@@ -10,7 +10,7 @@ body {
   background-color: #fff;
   font-family: "Montserrat";
   margin: 0;
-  /* display: none; */
+  display: none;
 }
 .container {
   padding: 20px;
