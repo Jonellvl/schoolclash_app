@@ -43,16 +43,7 @@
             <script type="text/javascript">
                 app.initialize();
 
-                // Haal de opgeslagen data op
-                var locationData = JSON.parse(window.localStorage.getItem('questions'));
-                // Lege array voor de longs en lats
-                var longLats = [];
-
-                for (var i = locationData.length - 1; i >= 0; i--) {
-                    data = locationData[i];
-                    // Gooi de longs en lats in een array
-                    longLats.push([data["long"],data["lat"]]);
-                }
+                
             </script>
       </div>
     </body>

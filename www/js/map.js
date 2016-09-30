@@ -45,9 +45,24 @@ var app = {
 		});
 
 
-		L.marker([52.511, 13.388]).addTo(map)
-			.bindPopup("<b>Hello world!</b><br />I am a popup.").openPopup();
+		// L.marker([52.511, 13.388]).addTo(map)
+		// 	.bindPopup("<b>Hello world!</b><br />I am a popup.").openPopup();
 
+		                // Haal de opgeslagen data op
+                var locationData = JSON.parse(window.localStorage.getItem('questions'));
+                // Lege array voor de longs en lats
+                var longLats = [];
+
+                for (var i = locationData.length - 1; i >= 0; i--) {
+                    data = locationData[i];
+                    // Gooi de longs en lats in een array
+                    longLats.push([data["long"],data["lat"],data["title"]]);
+                }
+
+                for (var i = longLats.length - 1; i >= 0; i--) {
+                	longLats[i];
+                	L.marker([longLats[i][0], longLats[i][1]]).addTo(map).bindPopup(longLats[i][2]).openPopup();
+                }
 		var popup = L.popup();
 
 	},
