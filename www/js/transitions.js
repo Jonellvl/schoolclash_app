@@ -27,7 +27,7 @@ function fade_in(){}
 $(window).scroll(function (event) {
     var scroll = $(window).scrollTop();
 
-        console.log(scroll);
+        // console.log(scroll);
     // Do something
     if (scroll > 60){
         $('#header-static').css({
