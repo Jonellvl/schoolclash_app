@@ -26,7 +26,8 @@ function downloadFiles(page){
           </div>");
 
             if (page == "selectlocation") {
-              fetchLocations();
+              // fetchLocations();
+              location.reload();
             };
         },
         error: function(){
