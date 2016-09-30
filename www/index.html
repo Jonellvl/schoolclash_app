@@ -54,6 +54,8 @@
           </div>");
         }
 
+
+
          $( "#refresh" ).click(function() {
              console.log("log refresh");
                        $('#content-index').html("<div class='idText'>\
@@ -61,18 +63,29 @@
            <div class='inputvelden'>\
             <input class='submit' type='button' id='download' value='Download vragen'>\
           </div>");
-             $("#download").val("Downloading ...");
-            downloadFiles();
+             var j = 0;
+             setInterval(function() {
+                 j = ++j % 5;
+                 $("#download").val("Downloading"+Array(j+1).join("."));
+             }, 1000);
+             downloadFiles();
          });
 
- $( "#download" ).click(function() {
+        $( "#download" ).click(function() {
              console.log("log refresh");
                        $('#content-index').html("<div class='idText'>\
            Download alle vragen<br>Doe dit op wifi.</div>\
            <div class='inputvelden'>\
             <input class='submit' type='button' id='download' value='Download vragen'>\
           </div>");
-             $("#download").val("Downloading ...");
+
+            var j = 0;
+            setInterval(function() {
+                j = ++j % 5;
+                $("#download").val("Downloading"+Array(j+1).join("."));
+            }, 1000);
+
+//             $("#download").val("Downloading ...");
             downloadFiles();
          });
 
