@@ -11,14 +11,19 @@
     <script src="js/formBuilder.js"></script>
     <script src="js/requestController.js"></script>
     <script src="js/ajax.js"></script>
+    <script src="js/transitions.js"></script>
 
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/index.css" />
 
     <title>SchoolClash</title>
 </head>
-
-<body style="background: #459695 !important">
+<style>
+  body {
+    display: none;
+  }
+</style>
+<body onload="fade_in();" style="background: #459695 !important">
 <div class="refresh">
     <input class='submit' id="refresh" type='button' value='refresh content!'>
 </div>
