@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <title></title>
+
+    <script src="js/jquery-3.1.1.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <div class="header">
+    <div class="monumentPicture" id="monumentPicture">
+      <img src="img/Furherbunker.jpg" class="monumentPicture">
+
+    </div>
+    <div class="title-bar">
+      <div class="text">
+        <h2 id="locationTitle">Loading</h2>
+      </div>
+      <div class="border-blue">
+      </div>
+      <a href="selectlocation.html"><img src="img/pointer-back.png" class="backButton"></a>
+    </div>
+  </div>
+  <body>
+    <div class="container">
+      <div class="monumentInfo" >
+        <p class="info">Data is loading, please wait.
+        </p>
+      </div>
+      <div style="text-align:center">
+      <a href="quizpage.html"><button class="quizQuestions">Quizvragen</button></a>
+    </div>
+    </div>
+
+    <script>
+      var $_GET = {};
+
+      // Parse de url voor GET variablen
+      document.location.search.replace(/\??(?:([^=]+)=([^&]*)&?)/g, function () {
+          function decode(s) {
+              return decodeURIComponent(s.split("+").join(" "));
+          }
+
+          $_GET[decode(arguments[1])] = decode(arguments[2]);
+      });
+
+      // Haal het ID uit de url
+      var currentId = $_GET["id"];
+      var currentData = null;
+
+      // Pak de opgeslagen data
+      var locationData = JSON.parse(window.localStorage.getItem('questions'));
+
+      // Pak de juiste vraag
+      for (var i = locationData.length - 1; i >= 0; i--) {
+        var data = locationData[i];
+        if (data["id"] == currentId) {
+          currentData = data;
+        }
+      }
+
+      $("#locationTitle").html(currentData["title"]);
+      $(".info").html(currentData["text"]);
+      $("#monumentPicture").html("<img class='monumentPicture' src='data:image/jpeg;base64, " + currentData["image"] + "' />");
+    </script>
+  </body>
+</html>
