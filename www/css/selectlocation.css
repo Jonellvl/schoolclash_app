@@ -101,3 +101,12 @@ header #icon img{
 	height: auto;
 	width: 100%;
 }
+
+.downloading-text{
+	text-align: center;
+	color: white;
+	background: #459695;
+	margin: 15px auto 0 auto;
+	width: 95%;
+	padding: 15px 0;
+}
