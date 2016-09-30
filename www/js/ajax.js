@@ -35,7 +35,7 @@ function downloadFiles(){
             <input class='submit' type='button' id='download' value='Download data'>\
           </div>");
 
-            $("#location-blocks").html("Something went wrong while downloading.");
+            $("#location-blocks").html("<div class='downloading-text'><h3> Error! </h3><br> Something went wrong while downloading the data</div>");
         }
     });
 }
