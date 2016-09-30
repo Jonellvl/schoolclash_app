@@ -65,6 +65,7 @@
 		fetchLocations();
 
 		$("#refresh img").click(function() {
+			$("#refresh img").addClass('spin');
 			$("#location-blocks").html("<div class='downloading-text'><h3> Downloading </h3></div>");
 			downloadFiles("selectlocation");
 		});
