@@ -1,4 +1,4 @@
-function downloadFiles(){
+function downloadFiles(page){
    
     // Maak GET reqeust naar api
     var feedurl = "http://api.schoolclash.eu:5000/api/location?callback=callback";
@@ -20,13 +20,14 @@ function downloadFiles(){
                        <div class='idText'>\
            Please fill in your<br>group id.\
            </div>\
-           <div class='inputvelden'>  </div>\
            <div class='inputvelden'>\
              <input class='key' type='number' name='name' placeholder='Groep ID'>\
-             <a href='map.html'><input class='submit' type='submit' value='Start playing'></a>\
+             <div class='start-link'><input class='submit' type='submit' value='Start playing'><div class='start-link'>\
           </div>");
 
-            fetchLocations();
+            if (page == "selectlocation") {
+              fetchLocations();
+            };
         },
         error: function(){
             $('#content-index').html("<div class='idText'>\
