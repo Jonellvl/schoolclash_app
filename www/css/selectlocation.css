@@ -98,7 +98,8 @@ header #icon img{
 }
 
 .image img{
-	height: auto;
+	height: 100%;
+	min-height: 100px;
 	width: 100%;
 }
 
