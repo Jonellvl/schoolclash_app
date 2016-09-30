@@ -151,3 +151,7 @@ header #icon img{
 	width: 95%;
 	padding: 15px 0;
 }
+
+#header-static{
+	overflow: hidden;
+}

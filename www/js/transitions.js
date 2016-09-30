@@ -26,9 +26,27 @@ function fade_in(){}
 
 $(window).scroll(function (event) {
     var scroll = $(window).scrollTop();
-    // Do something
-    if (scroll > 100){
 
         console.log(scroll);
+    // Do something
+    if (scroll > 60){
+        $('#header-static').css({
+        	position: 'fixed',
+        	height: '60px',
+        	overflow: 'hidden'
+        });
+
+ 		$('#headerPlaceholder').css({
+ 			display: 'block'
+ 		});
+    } else {
+    	$('#header-static').css({
+        	position: 'static',
+        	height: 'auto'
+        });
+
+		$('#headerPlaceholder').css({
+ 			display: 'none'
+ 		});
     }
 });

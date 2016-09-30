@@ -604,3 +604,12 @@ a.locatiebutton {
 }
 
 
+#headerPlaceholder{
+  height: 140px;
+  display: none;
+}
+
+#header-static{
+  top: 0;
+  z-index: 99;
+}
