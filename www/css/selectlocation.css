@@ -33,6 +33,21 @@ header #icon img{
 	padding: 15px;
 }
 
+#refresh{
+	display: block;
+	z-index: 2;
+	position: absolute;
+}
+
+#refresh img{
+	height: 32px;
+	width: 32px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	padding: 15px;
+}
+
 .v-align{
 	position: absolute;
 	top: 50%;
