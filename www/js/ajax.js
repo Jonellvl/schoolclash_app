@@ -23,7 +23,7 @@ function downloadFiles(){
            <div class='inputvelden'>  </div>\
            <div class='inputvelden'>\
              <input class='key' type='number' name='name' placeholder='Groep ID'>\
-             <a href='map.html'><input class='submit' type='submit' value='Meedoen'></a>\
+             <a href='map.html'><input class='submit' type='submit' value='Start playing'></a>\
           </div>");
 
             fetchLocations();
@@ -32,7 +32,7 @@ function downloadFiles(){
             $('#content-index').html("<div class='idText'>\
            Error!<br>Something went wrong while downloading.</div>\
            <div class='inputvelden'>\
-            <input class='submit' type='button' id='download' value='Download vragen'>\
+            <input class='submit' type='button' id='download' value='Download data'>\
           </div>");
 
             $("#location-blocks").html("Something went wrong while downloading.");
