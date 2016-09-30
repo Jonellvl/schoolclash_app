@@ -37,9 +37,12 @@ body {
   margin: 0;
     /*display: none;*/
 }
+
+
 .container {
-  padding: 20px;
-  height: 100%
+    z-index: 99999;
+    height: 100%;
+    padding: 0 10px 20px 10px;
 }
 .container ul{
   list-style: none;
@@ -380,6 +383,19 @@ a{
   padding: 15px 32px;
   width: 80%
 }
+.container .verzenden{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #459695;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 15px 32px;
+    width: 80%
+}
+
 .button-text a#button-false {
   display: none;
 }
