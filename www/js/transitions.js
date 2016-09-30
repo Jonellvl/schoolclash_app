@@ -23,3 +23,12 @@ function fade_in(){}
 //        $('body').css("transition", "200ms");
 //    }, 500);
 //}
+
+$(window).scroll(function (event) {
+    var scroll = $(window).scrollTop();
+    // Do something
+    if (scroll > 100){
+
+        console.log(scroll);
+    }
+});

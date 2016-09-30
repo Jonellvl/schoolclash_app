@@ -268,6 +268,7 @@ input.key{
   left: 0;
   margin: 20px;
 }
+
 .picture {
   width: 100%;
 }
@@ -567,6 +568,28 @@ a.locatiebutton {
     display:none;
 }
 
+.container .info{
+    word-wrap: break-word ;
+}
+
+#static{
+    position: fixed;
+    /*border-bottom: 2px solid #000;*/
+
+}
+
+#static .fill{
+    width: auto;
+}
+
+#header-fixed{
+    position: fixed;
+    height: 20px;
+}
+
+/*.img-break{*/
+   /*height: 190px;*/
+/*}*/
 
 @keyframes fade {
     from { opacity: 1.0; }
