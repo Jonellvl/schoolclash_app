@@ -7,11 +7,11 @@
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
     <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
 
-    <script src="js/jquery-3.1.1.js"></script>
-    <script src="js/formBuilder.js"></script>
+    <script src="js/jquery/jquery-3.1.1.js"></script>
+    <script src="js/pages/formBuilder.js"></script>
     <script src="js/requestController.js"></script>
-    <script src="js/ajax.js"></script>
-    <script src="js/transitions.js"></script>
+    <script src="js/pages/ajax.js"></script>
+    <script src="js/pages/transitions.js"></script>
 
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/index.css" />
@@ -22,10 +22,10 @@
 <body onload="fade_in();" style="background: #459695 !important">
 
   <div class="logoblok">
-  <img src="img/logo.png" class="logo">
+  <img src="img/logos/logo.png" class="logo">
   </div>
   <div class="welcome">
-      WELCOME AT<br>SCHOOLCLASH
+      WELCOME AT<br />SCHOOLCLASH
   </div>
   <div class="blok">
   </div>
@@ -34,7 +34,7 @@
       <div class='idText'>
             Download all data<br>You might want to do this on wifi.</div>
             <div class='inputvelden'>
-             <input class='submit' type='button' id='download' value='Download vragen'>
+                <input class='submit' type='button' id='download' value='Download vragen'>
            </div>
   </div>
 
@@ -55,18 +55,18 @@
           $(".inputvelden input.key").val(window.localStorage.getItem('groupId'));
         }
 
-function shake(div){                                                                     
-    var interval = 100;                                                                                 
-    var distance = 10;                                                                                      
-    var times = 4;
-    $(div).css('position','relative');
-    for(var iter=0;iter<(times+1);iter++){                                                                              
-        $(div).animate({ 
-            left:((iter%2==0 ? distance : distance*-1))
-            },interval);                                   
-    };
-    $(div).animate({ left: 0},interval); 
-}
+        function shake(div){
+            var interval = 100;
+            var distance = 10;
+            var times = 4;
+            $(div).css('position','relative');
+            for(var iter=0;iter<(times+1);iter++){
+                $(div).animate({
+                    left:((iter%2==0 ? distance : distance*-1))
+                    },interval);
+            };
+            $(div).animate({ left: 0},interval);
+        }
 
         $(".start-link").click(function() {
           // console.log(1);
@@ -93,8 +93,6 @@ function shake(div){
                 j = ++j % 5;
                 $("#download").val("Downloading"+Array(j+1).join("."));
             }, 1000);
-
-//             $("#download").val("Downloading ...");
             downloadFiles("index");
          });
 
@@ -102,8 +100,8 @@ function shake(div){
       app.initialize();
     </script>
     <script src="cordova.js"></script>
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery.easing.js"></script>
-    <script src="js/jquery.easing.compatibility.js"></script>
+    <script src="js/jquery/jquery.js"></script>
+    <script src="js/jquery/jquery.easing.js"></script>
+    <script src="js/jquery/jquery.easing.compatibility.js"></script>
 </body>
 </html>
