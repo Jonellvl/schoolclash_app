@@ -1,10 +1,50 @@
+.spin {
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 1000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    
+    animation-name: spin;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@-ms-keyframes spin {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
 body{
 	margin: 0;
 }
 
 header{
 	height: 30vh;
-	background: url('../img/header-img.jpg');
+	background: url('../img/headers/header-img.jpg');
 	background-size: cover;
 }
 
@@ -29,6 +69,21 @@ header #icon img{
 	width: 32px;
 	position: absolute;
 	top: 0;
+	right: 0;
+	padding: 15px;
+}
+
+#refresh{
+	display: block;
+	z-index: 2;
+	position: absolute;
+}
+
+#refresh img{
+	height: 32px;
+	width: 32px;
+	position: absolute;
+	left: 0;
 	right: 0;
 	padding: 15px;
 }
@@ -83,6 +138,20 @@ header #icon img{
 }
 
 .image img{
-	height: auto;
+	height: 100%;
+	min-height: 100px;
 	width: 100%;
+}
+
+.downloading-text{
+	text-align: center;
+	color: white;
+	background: #459695;
+	margin: 15px auto 0 auto;
+	width: 95%;
+	padding: 15px 0;
+}
+
+#header-static{
+	overflow: hidden;
 }

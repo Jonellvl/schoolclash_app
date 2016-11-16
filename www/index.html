@@ -7,10 +7,11 @@
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
     <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
 
-    <script src="js/jquery-3.1.1.js"></script>
-    <script src="js/formBuilder.js"></script>
+    <script src="js/jquery/jquery-3.1.1.js"></script>
+    <script src="js/pages/formBuilder.js"></script>
     <script src="js/requestController.js"></script>
-    <script src="js/ajax.js"></script>
+    <script src="js/pages/ajax.js"></script>
+    <script src="js/pages/transitions.js"></script>
 
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/index.css" />
@@ -18,25 +19,22 @@
     <title>SchoolClash</title>
 </head>
 
-<body style="background: #459695 !important">
-<div class="refresh">
-    <input class='submit' id="refresh" type='button' value='refresh content!'>
-</div>
+<body onload="fade_in();" style="background: #459695 !important">
 
   <div class="logoblok">
-  <img src="img/logo.png" class="logo">
+  <img src="img/logos/logo.png" class="logo">
   </div>
   <div class="welcome">
-      WELCOME AT<br>SCHOOLCLASH
+      WELCOME AT<br />SCHOOLCLASH
   </div>
   <div class="blok">
   </div>
 
   <div id="content-index">
       <div class='idText'>
-            Download alle vragen<br>Doe dit op wifi.</div>
+            Download all data<br>You might want to do this on wifi.</div>
             <div class='inputvelden'>
-             <input class='submit' type='button' id='download' value='Download vragen'>
+                <input class='submit' type='button' id='download' value='Download vragen'>
            </div>
   </div>
 
@@ -45,38 +43,49 @@
         if (window.localStorage.getItem('questions')) {
           $('#content-index').html("\
                        <div class='idText'>\
-           Vul hieronder de ID<br>in die je hebt gekregen.\
+           Please fill in your<br>group id.\
            </div>\
-           <div class='inputvelden'>  </div>\
            <div class='inputvelden'>\
              <input class='key' type='number' name='name' placeholder='Groep ID'>\
-             <a href='map.html'><input class='submit' type='submit' value='Meedoen'></a>\
+             <div class='start-link'><input class='submit' type='submit' value='Start playing'></div>\
           </div>");
         }
 
+        if (window.localStorage.getItem('groupId')) {
+          $(".inputvelden input.key").val(window.localStorage.getItem('groupId'));
+        }
 
+        function shake(div){
+            var interval = 100;
+            var distance = 10;
+            var times = 4;
+            $(div).css('position','relative');
+            for(var iter=0;iter<(times+1);iter++){
+                $(div).animate({
+                    left:((iter%2==0 ? distance : distance*-1))
+                    },interval);
+            };
+            $(div).animate({ left: 0},interval);
+        }
 
-         $( "#refresh" ).click(function() {
-             console.log("log refresh");
-                       $('#content-index').html("<div class='idText'>\
-           Download alle vragen<br>Doe dit op wifi.</div>\
-           <div class='inputvelden'>\
-            <input class='submit' type='button' id='download' value='Download vragen'>\
-          </div>");
-             var j = 0;
-             setInterval(function() {
-                 j = ++j % 5;
-                 $("#download").val("Downloading"+Array(j+1).join("."));
-             }, 1000);
-             downloadFiles();
-         });
+        $(".start-link").click(function() {
+          // console.log(1);
+          // Als er nog geen text in het input veld staat schud de text
+          if ($('.inputvelden input').val() == "") {
+            shake($('.idText'));
+          } else {
+            // Anders sla het group ID op
+            window.localStorage.setItem('groupId', ($('.inputvelden input.key').val()));
+            window.location.href = "map.html";
+          }
+        });
 
         $( "#download" ).click(function() {
              console.log("log refresh");
                        $('#content-index').html("<div class='idText'>\
-           Download alle vragen<br>Doe dit op wifi.</div>\
+           Download all data<br>You might want to do this on wifi.</div>\
            <div class='inputvelden'>\
-            <input class='submit' type='button' id='download' value='Download vragen'>\
+            <input class='submit' type='button' id='download' value='Downloading data'>\
           </div>");
 
             var j = 0;
@@ -84,17 +93,15 @@
                 j = ++j % 5;
                 $("#download").val("Downloading"+Array(j+1).join("."));
             }, 1000);
-
-//             $("#download").val("Downloading ...");
-            downloadFiles();
+            downloadFiles("index");
          });
 
 
       app.initialize();
     </script>
     <script src="cordova.js"></script>
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery.easing.js"></script>
-    <script src="js/jquery.easing.compatibility.js"></script>
+    <script src="js/jquery/jquery.js"></script>
+    <script src="js/jquery/jquery.easing.js"></script>
+    <script src="js/jquery/jquery.easing.compatibility.js"></script>
 </body>
 </html>

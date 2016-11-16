@@ -60,9 +60,10 @@ var app = {
                 }
 
                 for (var i = longLats.length - 1; i >= 0; i--) {
-                	longLats[i];
-                	L.marker([longLats[i][0], longLats[i][1]]).addTo(map).bindPopup(longLats[i][2]).openPopup();
+                	L.marker([longLats[i][1], longLats[i][0]]).addTo(map).bindPopup(longLats[i][2]);
+					// console.log(longLats[i][2] + longLats[i][1] + longLats[i][0]);                	
                 }
+
 		var popup = L.popup();
 
 	},

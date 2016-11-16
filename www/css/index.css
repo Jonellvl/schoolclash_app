@@ -1,3 +1,28 @@
+.shake {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
 * {
   -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
@@ -10,10 +35,14 @@ body {
   background-color: #fff;
   font-family: "Montserrat";
   margin: 0;
+    /*display: none;*/
 }
+
+
 .container {
-  padding: 20px;
-  height: 100%
+    z-index: 99999;
+    height: 100%;
+    padding: 0 10px 20px 10px;
 }
 .container ul{
   list-style: none;
@@ -139,6 +168,7 @@ input.submit {
   color:white;
   border:1px solid white;
   margin-top:10px;
+  margin-bottom: 10px;
   appearance:none;
   -moz-appearance:none; /* Firefox */
   -webkit-appearance:none; /* Safari and Chrome */
@@ -146,7 +176,9 @@ input.submit {
   border-radius: 0px;
   font-size: 18px;
 }
-
+.leaflet-container {
+	font: 16px/1.5 "Montserrat", Arial, Helvetica, sans-serif !important;
+	}
 .refresh .submit{
     margin: 4% 0 0 7%;
     width:35%;
@@ -161,7 +193,6 @@ input.submit {
     border-radius: 0px;
     font-size: 15px;
 }
-
 input.key{
   width: 100%;
   height: 40px;
@@ -237,6 +268,7 @@ input.key{
   left: 0;
   margin: 20px;
 }
+
 .picture {
   width: 100%;
 }
@@ -352,6 +384,19 @@ a{
   padding: 15px 32px;
   width: 80%
 }
+.container .verzenden{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #459695;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 15px 32px;
+    width: 80%
+}
+
 .button-text a#button-false {
   display: none;
 }
@@ -490,7 +535,6 @@ h1.plattegrond {
     text-align: center;
     padding:10px;
     margin:0 auto;
-    margin-bottom: 73px;
     margin-top:35px;
     text-decoration: none;
 }
@@ -524,6 +568,29 @@ a.locatiebutton {
     display:none;
 }
 
+.container .info{
+    word-wrap: break-word ;
+}
+
+#static{
+    position: fixed;
+    /*border-bottom: 2px solid #000;*/
+
+}
+
+#static .fill{
+    width: auto;
+}
+
+#header-fixed{
+    position: fixed;
+    height: 20px;
+}
+
+/*.img-break{*/
+   /*height: 190px;*/
+/*}*/
+
 @keyframes fade {
     from { opacity: 1.0; }
     50% { opacity: 0.4; }
@@ -534,4 +601,18 @@ a.locatiebutton {
     from { opacity: 1.0; }
     50% { opacity: 0.4; }
     to { opacity: 1.0; }
+}
+
+
+#headerPlaceholder{
+  height: 140px;
+  display: none;
+  transition: .2s ease all;
+}
+
+#header-static{
+  top: 0;
+  z-index: 99;
+    border-bottom: 5px solid #fff;
+  /*transition: .2s ease all;*/
 }

@@ -14,16 +14,27 @@
         <!--[if lte IE 8]>
         <!--<link rel="stylesheet" href="libs/leaflet/leaflet.ie.css" />-->
         <![endif]-->
-
+        <script src="js/jquery/jquery-3.1.1.js"></script>
+        <script src="js/pages/transitions.js"></script>
         <title>Hello World</title>
     </head>
+    <style>
+    .map-canvas {
+      display: block !important;
+    }
+    /*body {*/
+      /*display: none;*/
+    /*}*/
 
-    <body style="
-    background: url(img/background_kaart.jpg) no-repeat center center fixed;
+    </style>
+    <!--onload="fade_in();"-->
+    <body onload="fade_in();" style="
+    background: url(img/backgrounds/background_kaart.jpg) no-repeat center center fixed #000000;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
-      background-size: cover;">
+      background-size: cover;
+      ">
     <div class="container">
         <h1 class="plattegrond">Plattegrond</h1>
         <div class="streep">
@@ -36,14 +47,13 @@
            </div>
 
            <a href="selectlocation.html" class="locatiebutton"><div class="locations_button">Locaties</div></a>
-            <script src="js/jquery-3.1.1.js"></script>
             <!--<script src="libs/leaflet/leaflet.js"></script>-->
             <script type="text/javascript" src="js/core.js"></script>
-            <script type="text/javascript" src="js/map.js"></script>
+            <script type="text/javascript" src="js/pages/map.js"></script>
             <script type="text/javascript">
                 app.initialize();
 
-                
+
             </script>
       </div>
     </body>
